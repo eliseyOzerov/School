@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author ultron
- *
- */
-module helloworld {
-}
