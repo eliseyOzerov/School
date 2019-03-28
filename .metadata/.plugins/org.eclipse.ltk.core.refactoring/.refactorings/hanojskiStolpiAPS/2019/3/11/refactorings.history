@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;hanojskiStolpiAPS/hanojskiStolpi.cpp&apos; to &apos;hanojskiStolpiAPS.cpp&apos;" description="Rename resource &apos;hanojskiStolpi.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="hanojskiStolpi.cpp" name="hanojskiStolpiAPS.cpp" stamp="1552325998225" updateReferences="true"/>
-</session>

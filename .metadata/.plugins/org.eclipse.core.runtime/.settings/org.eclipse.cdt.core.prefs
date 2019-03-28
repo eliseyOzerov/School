@@ -1,9 +1,0 @@
-eclipse.preferences.version=1
-environment/workspace/CPLUS_INCLUDE_PATH/delimiter=\:
-environment/workspace/CPLUS_INCLUDE_PATH/operation=append
-environment/workspace/CPLUS_INCLUDE_PATH/value=/usr/include/c++
-environment/workspace/C_UNCLUDE_PATH/delimiter=\:
-environment/workspace/C_UNCLUDE_PATH/operation=append
-environment/workspace/C_UNCLUDE_PATH/value=/usr/include
-environment/workspace/append=true
-environment/workspace/appendContributed=true

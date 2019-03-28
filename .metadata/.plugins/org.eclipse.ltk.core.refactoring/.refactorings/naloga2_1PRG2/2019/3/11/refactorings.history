@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;naloga2_1PRG2/clothing.h&apos; to &apos;Clothing.h&apos;" description="Rename resource &apos;clothing.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="clothing.h" name="Clothing.h" stamp="1552494758800" updateReferences="true"/>
-</session>
