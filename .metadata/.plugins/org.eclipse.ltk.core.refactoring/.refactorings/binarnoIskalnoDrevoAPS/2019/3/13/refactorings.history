@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;binarnoIskalnoDrevoAPS/binarnoIskalnoDrevoAPS&apos; to &apos;binarnoIskalnoDrevoAPS.cpp&apos;" description="Rename resource &apos;binarnoIskalnoDrevoAPS&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="binarnoIskalnoDrevoAPS" name="binarnoIskalnoDrevoAPS.cpp" stamp="1553667419294" updateReferences="true"/>
+</session>

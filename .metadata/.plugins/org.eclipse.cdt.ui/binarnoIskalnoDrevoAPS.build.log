@@ -1,0 +1,24 @@
+08:00:32 **** Build of configuration Debug for project binarnoIskalnoDrevoAPS ****
+make all 
+Building file: ../BST.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.cpp"
+Finished building: ../BST.cpp
+ 
+Building file: ../binarnoIskalnoDrevoAPS.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"binarnoIskalnoDrevoAPS.d" -MT"binarnoIskalnoDrevoAPS.o" -o "binarnoIskalnoDrevoAPS.o" "../binarnoIskalnoDrevoAPS.cpp"
+Finished building: ../binarnoIskalnoDrevoAPS.cpp
+ 
+Building target: binarnoIskalnoDrevoAPS
+Invoking: GCC C++ Linker
+g++  -o "binarnoIskalnoDrevoAPS"  ./BST.o ./binarnoIskalnoDrevoAPS.o   
+/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:44: recipe for target 'binarnoIskalnoDrevoAPS' failed
+collect2: error: ld returned 1 exit status
+make: *** [binarnoIskalnoDrevoAPS] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+08:00:32 Build Failed. 3 errors, 0 warnings. (took 375ms)
+

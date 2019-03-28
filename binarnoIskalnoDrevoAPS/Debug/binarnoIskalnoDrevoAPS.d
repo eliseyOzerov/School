@@ -1,0 +1,1 @@
+binarnoIskalnoDrevoAPS.o: ../binarnoIskalnoDrevoAPS.cpp

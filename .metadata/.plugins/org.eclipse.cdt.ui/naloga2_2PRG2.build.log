@@ -1,0 +1,6 @@
+08:00:34 **** Incremental Build of configuration Debug for project naloga2_2PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+08:00:35 Build Finished. 0 errors, 0 warnings. (took 323ms)
+

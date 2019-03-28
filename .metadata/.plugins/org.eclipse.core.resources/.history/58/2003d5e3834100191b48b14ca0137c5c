@@ -1,0 +1,110 @@
+/*
+ * countingSort.cpp
+ *
+ *  Created on: Mar 7, 2019
+ *      Author: ultron
+ */
+#include <iostream>
+
+using namespace std;
+
+
+
+int convertArray(int array[], int size){
+
+	int min = 0;
+
+	for(int i = 0; i < size; i++){
+		if(array[i]<min){
+			min = array[i];
+		}
+	}
+	if(min<0){
+		for(int i = 0; i < size; i++){
+			array[i]-=min;
+		}
+	}
+
+	return min;
+}
+
+int getMaxVal(int array[], int size){
+	int max = array[0];
+
+	for(int i = 0; i < size; i++){
+		if(array[i]>max){
+			max = array[i];
+		}
+	}
+
+	return max;
+}
+
+void countingSort(int array[], int res[], int size, int maxVal){
+	int * arrayCopyC = new int[maxVal+1];
+
+	for(int i = 0; i < size; i++){
+		arrayCopyC[array[i]]+=1;
+	}
+
+	for(int i = 1; i < maxVal+1; i++){
+		arrayCopyC[i]+=arrayCopyC[i-1];
+	}
+
+	for(int i = size-1; i >= 0; i--){
+		res[arrayCopyC[array[i]]-1]=array[i];
+		arrayCopyC[array[i]]--;
+	}
+	delete arrayCopyC;
+	return;
+
+}
+
+void romanSort(int array[], int res[], int size, int maxVal){
+	int * arrayCopyC = new int[maxVal+1];
+
+	for(int i = 0; i < size; i++){
+		arrayCopyC[array[i]]+=1;
+	}
+
+	for(int i = 0; i<maxVal+1; i++){
+		int t = i;
+		int tmp =
+		for(int t; k<i+arrayCopyC[i]; k++){
+			res[k]=i;
+		}
+	}
+	delete arrayCopyC;
+	return;
+}
+
+int main(int argc, const char* argv[]){
+
+	srand(time(NULL));
+
+	const int ARR_SIZE = 100;
+
+	int array[ARR_SIZE];
+	int res[ARR_SIZE];
+
+
+	for(int i=0; i<ARR_SIZE; i++){
+		array[i]=rand()%101 - 50;
+	}
+
+	int min = convertArray(array, ARR_SIZE);
+
+	romanSort(array, res, ARR_SIZE, getMaxVal(array, ARR_SIZE));
+
+	for(int i=0; i<sizeof(res)/sizeof(res[0]); i++){
+		if(min < 0){
+			res[i] += min;
+		}
+		cout << res[i] << endl;
+	}
+return 0;
+
+}
+
+
+

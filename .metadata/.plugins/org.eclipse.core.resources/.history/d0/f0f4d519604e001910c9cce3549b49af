@@ -1,0 +1,27 @@
+/*
+ * Date.cpp
+ *
+ *  Created on: Mar 24, 2019
+ *      Author: ultron
+ */
+
+
+#include "Date.h"
+#include <iostream>
+#include <string>
+
+
+Date::Date(int day, int month, int year) : day(day), month(month), year(year){}
+
+std::string Date::toString(){
+	std::string res;
+
+	res = "Day: " + std::to_string(this->day) +
+			" Month: " + std::to_string(month) +
+			" Year: " + std::to_string(year);
+	return res;
+}
+
+bool Date::isEqual(const Date& second){
+	return this->day == second.day && this->month==second.month && this->year==second.year; //ASK WHY IS THIS POSSIBLE
+}

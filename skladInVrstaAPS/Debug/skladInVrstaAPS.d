@@ -1,0 +1,1 @@
+skladInVrstaAPS.o: ../skladInVrstaAPS.cpp

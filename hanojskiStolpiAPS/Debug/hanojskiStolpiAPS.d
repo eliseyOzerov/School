@@ -1,0 +1,1 @@
+hanojskiStolpiAPS.o: ../hanojskiStolpiAPS.cpp

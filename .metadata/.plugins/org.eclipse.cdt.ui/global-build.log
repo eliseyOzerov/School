@@ -1,0 +1,164 @@
+09:36:46 **** Incremental Build of configuration Debug for project naloga4_1PRG2 ****
+make all 
+Building file: ../naloga4_1PRG2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"naloga4_1PRG2.d" -MT"naloga4_1PRG2.o" -o "naloga4_1PRG2.o" "../naloga4_1PRG2.cpp"
+Finished building: ../naloga4_1PRG2.cpp
+ 
+Building target: naloga4_1PRG2
+Invoking: GCC C++ Linker
+g++  -o "naloga4_1PRG2"  ./Calendar.o ./Date.o ./DateTime.o ./Event.o ./MeetingEvent.o ./Time.o ./naloga4_1PRG2.o   
+./MeetingEvent.o:(.data.rel.ro._ZTV12MeetingEvent[_ZTV12MeetingEvent]+0x18): undefined reference to `MeetingEvent::~MeetingEvent()'
+./MeetingEvent.o:(.data.rel.ro._ZTV12MeetingEvent[_ZTV12MeetingEvent]+0x20): undefined reference to `MeetingEvent::~MeetingEvent()'
+collect2: error: ld returned 1 exit status
+make: *** [naloga4_1PRG2] Error 1
+makefile:44: recipe for target 'naloga4_1PRG2' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+09:40:15 **** Incremental Build of configuration Release for project DoublyLinkedListAPS ****
+make all 
+make: Nothing to be done for 'all'.
+09:40:15 **** Incremental Build of configuration Debug for project hanojskiStolpiAPS ****
+make all 
+make: Nothing to be done for 'all'.
+09:40:16 **** Incremental Build of configuration Debug for project naloga1_1PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+09:40:16 **** Incremental Build of configuration Debug for project naloga1_2PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+09:40:16 **** Incremental Build of configuration Debug for project naloga2_1PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+09:40:17 **** Incremental Build of configuration Debug for project naloga2_2PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+09:40:17 **** Incremental Build of configuration Debug for project naloga4_1PRG2 ****
+make all 
+Building file: ../MeetingEvent.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MeetingEvent.d" -MT"MeetingEvent.o" -o "MeetingEvent.o" "../MeetingEvent.cpp"
+Finished building: ../MeetingEvent.cpp
+ 
+Building target: naloga4_1PRG2
+Invoking: GCC C++ Linker
+g++  -o "naloga4_1PRG2"  ./Calendar.o ./Date.o ./DateTime.o ./Event.o ./MeetingEvent.o ./Time.o ./naloga4_1PRG2.o   
+Finished building target: naloga4_1PRG2
+ 
+09:40:18 **** Incremental Build of configuration Debug for project skladInVrstaAPS ****
+make all 
+make: Nothing to be done for 'all'.
+09:40:18 **** Incremental Build of configuration Debug for project vaja1_ARA ****
+make all 
+make: Nothing to be done for 'all'.
+09:40:24 **** Incremental Build of configuration Debug for project naloga4_1PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+09:43:58 **** Incremental Build of configuration Debug for project naloga4_1PRG2 ****
+make all 
+Building file: ../DateTime.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DateTime.d" -MT"DateTime.o" -o "DateTime.o" "../DateTime.cpp"
+Finished building: ../DateTime.cpp
+ 
+Building target: naloga4_1PRG2
+Invoking: GCC C++ Linker
+g++  -o "naloga4_1PRG2"  ./Calendar.o ./Date.o ./DateTime.o ./Event.o ./MeetingEvent.o ./Time.o ./naloga4_1PRG2.o   
+Finished building target: naloga4_1PRG2
+ 
+09:43:58 **** Incremental Build of configuration Debug for project naloga4_1PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+09:50:02 **** Incremental Build of configuration Debug for project naloga4_1PRG2 ****
+make all 
+Building file: ../Time.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Time.d" -MT"Time.o" -o "Time.o" "../Time.cpp"
+Finished building: ../Time.cpp
+ 
+Building target: naloga4_1PRG2
+Invoking: GCC C++ Linker
+g++  -o "naloga4_1PRG2"  ./Calendar.o ./Date.o ./DateTime.o ./Event.o ./MeetingEvent.o ./Time.o ./naloga4_1PRG2.o   
+Finished building target: naloga4_1PRG2
+ 
+10:05:32 **** Incremental Build of configuration Debug for project naloga4_1PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:06:13 **** Incremental Build of configuration Debug for project naloga4_1PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:06:34 **** Incremental Build of configuration Debug for project naloga4_1PRG2 ****
+make all 
+Building file: ../naloga4_1PRG2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"naloga4_1PRG2.d" -MT"naloga4_1PRG2.o" -o "naloga4_1PRG2.o" "../naloga4_1PRG2.cpp"
+Finished building: ../naloga4_1PRG2.cpp
+ 
+Building target: naloga4_1PRG2
+Invoking: GCC C++ Linker
+g++  -o "naloga4_1PRG2"  ./Calendar.o ./Date.o ./DateTime.o ./Event.o ./MeetingEvent.o ./Time.o ./naloga4_1PRG2.o   
+Finished building target: naloga4_1PRG2
+ 
+08:00:32 **** Incremental Build of configuration Release for project DoublyLinkedListAPS ****
+make all 
+make: Nothing to be done for 'all'.
+08:00:32 **** Build of configuration Debug for project binarnoIskalnoDrevoAPS ****
+make all 
+Building file: ../BST.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.cpp"
+Finished building: ../BST.cpp
+ 
+Building file: ../binarnoIskalnoDrevoAPS.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"binarnoIskalnoDrevoAPS.d" -MT"binarnoIskalnoDrevoAPS.o" -o "binarnoIskalnoDrevoAPS.o" "../binarnoIskalnoDrevoAPS.cpp"
+Finished building: ../binarnoIskalnoDrevoAPS.cpp
+ 
+Building target: binarnoIskalnoDrevoAPS
+Invoking: GCC C++ Linker
+g++  -o "binarnoIskalnoDrevoAPS"  ./BST.o ./binarnoIskalnoDrevoAPS.o   
+/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:44: recipe for target 'binarnoIskalnoDrevoAPS' failed
+collect2: error: ld returned 1 exit status
+make: *** [binarnoIskalnoDrevoAPS] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:00:32 **** Incremental Build of configuration Debug for project hanojskiStolpiAPS ****
+make all 
+make: Nothing to be done for 'all'.
+08:00:33 **** Incremental Build of configuration Debug for project naloga1_1PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+08:00:33 **** Incremental Build of configuration Debug for project naloga1_2PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+08:00:34 **** Incremental Build of configuration Debug for project naloga2_1PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+08:00:34 **** Incremental Build of configuration Debug for project naloga2_2PRG2 ****
+make all 
+make: Nothing to be done for 'all'.
+08:00:35 **** Incremental Build of configuration Debug for project naloga4_1PRG2 ****
+make all 
+Building file: ../naloga4_1PRG2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"naloga4_1PRG2.d" -MT"naloga4_1PRG2.o" -o "naloga4_1PRG2.o" "../naloga4_1PRG2.cpp"
+../naloga4_1PRG2.cpp: In function ‘int main()’:
+../naloga4_1PRG2.cpp:23:9: warning: deleting object of polymorphic class type ‘Event’ which has non-virtual destructor might cause undefined behavior [-Wdelete-non-virtual-dtor]
+  delete event;
+         ^~~~~
+Finished building: ../naloga4_1PRG2.cpp
+ 
+Building target: naloga4_1PRG2
+Invoking: GCC C++ Linker
+g++  -o "naloga4_1PRG2"  ./Calendar.o ./Date.o ./DateTime.o ./Event.o ./MeetingEvent.o ./Time.o ./naloga4_1PRG2.o   
+Finished building target: naloga4_1PRG2
+ 
+08:00:35 **** Incremental Build of configuration Debug for project skladInVrstaAPS ****
+make all 
+make: Nothing to be done for 'all'.
+08:00:36 **** Incremental Build of configuration Debug for project vaja1_ARA ****
+make all 
+make: Nothing to be done for 'all'.
+10:55:25 **** Build of configuration Debug for project naloga4_1PRG2 ****
+make all 
+make: Nothing to be done for 'all'.

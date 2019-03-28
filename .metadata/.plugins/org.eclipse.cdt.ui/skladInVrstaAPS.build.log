@@ -1,0 +1,6 @@
+08:00:35 **** Incremental Build of configuration Debug for project skladInVrstaAPS ****
+make all 
+make: Nothing to be done for 'all'.
+
+08:00:36 Build Finished. 0 errors, 0 warnings. (took 313ms)
+

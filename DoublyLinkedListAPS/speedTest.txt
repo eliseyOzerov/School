@@ -1,0 +1,13 @@
+Vnos v glavo seznama (N elementov): 12572 us.
+Vsota vrednosti seznama: 5000050000 
+Sestevanje vrednosti kljucev seznama (N elementov): 1489 us.
+Vnos na prvo mesto polja (N elementov): 21283235 us.
+Vsota vseh vrednosti polja: 5000050000 
+Sestevanje vrednosti indeksov polja (N elementov): 231 us.
+Vnos na konec polja (N elementov): 186 us.
+
+
+Vnos na prvo mesto polja je logicno slabse kot na prvo mesto seznama, saj moramo pri polju prestavit vse elemente na desno n krat, kar je O(n^2), v polju pa samo prevezemo kazalce, kar je O(1).
+Sestevanje je boljse pri polju, saj ima polje inkrementirajoce kazalce, torej predvidevam, da ko hocemo dobiti vrednost iz naslednjega indeksa v polju, samo inkrementiramo kazalec. Pri seznamu pa so kazalci nakljucni, poleg tega pa moramo prestavljati kazalec vsakic, ko pristejemo vrednost.
+
+Za premikanje po strukturi je torej boljse polje oz vektor, povezan seznam pa je boljsi za vstavljanje in brisanje elementov. 
