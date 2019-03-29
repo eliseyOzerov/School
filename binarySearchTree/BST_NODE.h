@@ -5,24 +5,57 @@
  *      Author: ultron
  */
 
-
-
 #ifndef BST_NODE_H_
 #define BST_NODE_H_
 #include <iostream>
 #include <string>
 
-class BST_NODE{
+class BST_NODE {
 private:
 	int value;
 	BST_NODE* parent = nullptr;
 	BST_NODE* leftChild = nullptr;
 	BST_NODE* rightChild = nullptr;
 public:
-	BST_NODE(int value);
-	void setValue(int value){this-value = value;}
-	int getValue(){return this->value;}
-	void printNode(){std::cout << std::to_string(this->value) << ' ';};
+	BST_NODE(int value) :
+			value(value) {
+	}
+
+	void printNode() const {
+		std::cout << std::to_string(this->value) << ' ';
+	}
+
+	int getValue() const {
+		return value;
+	}
+
+	void setValue(int value) {
+		this->value = value;
+	}
+
+	BST_NODE* getLeftChild() const {
+		return leftChild;
+	}
+
+	void setLeftChild(const BST_NODE*& leftChild = nullptr) {
+		this->leftChild = leftChild;
+	}
+
+	const BST_NODE*& getParent() const {
+		return parent;
+	}
+
+	void setParent(const BST_NODE*& parent = nullptr) {
+		this->parent = parent;
+	}
+
+	const BST_NODE*& getRightChild() const {
+		return rightChild;
+	}
+
+	void setRightChild(const BST_NODE*& rightChild = nullptr) {
+		this->rightChild = rightChild;
+	}
 };
 
 #endif

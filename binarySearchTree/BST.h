@@ -14,10 +14,17 @@ class BST {
 private:
 	BST_NODE* root;
 public:
-	void addNode(BST_NODE node) const;
+	BST(BST_NODE* root);
+	void addNode(BST_NODE node);
+	void deleleNode(int value);
 	void printTreeOrdered() const;
 	void printConnections() const;
-	BST_NODE* search() const;
-	void printParetnAndChildren();
-	void deleleNode(int value);
+	BST_NODE* search(int value, BST_NODE* currentNode);
+	BST_NODE* getParent() const;
+	BST_NODE* getChildren() const;
+	int getMin() const;
+	int getMax() const;
 };
+
+
+#endif

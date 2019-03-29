@@ -37,19 +37,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: DoublyLinkedListAPS
+all: doublyLinkedList
 
 # Tool invocations
-DoublyLinkedListAPS: $(OBJS) $(USER_OBJS)
+doublyLinkedList: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++  -o "DoublyLinkedListAPS" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++  -o "doublyLinkedList" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(CC_DEPS)$(C++_DEPS)$(EXECUTABLES)$(C_UPPER_DEPS)$(CXX_DEPS)$(OBJS)$(CPP_DEPS)$(C_DEPS) DoublyLinkedListAPS
+	-$(RM) $(CC_DEPS)$(C++_DEPS)$(EXECUTABLES)$(C_UPPER_DEPS)$(CXX_DEPS)$(OBJS)$(CPP_DEPS)$(C_DEPS) doublyLinkedList
 	-@echo ' '
 
 .PHONY: all clean dependents

@@ -1,1 +1,0 @@
-BST.o: ../BST.cpp

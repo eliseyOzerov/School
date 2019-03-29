@@ -37,19 +37,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: naloga4_1PRG2
+all: compositionAndAggregation
 
 # Tool invocations
-naloga4_1PRG2: $(OBJS) $(USER_OBJS)
+compositionAndAggregation: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++  -o "naloga4_1PRG2" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++  -o "compositionAndAggregation" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(CC_DEPS)$(C++_DEPS)$(EXECUTABLES)$(C_UPPER_DEPS)$(CXX_DEPS)$(OBJS)$(CPP_DEPS)$(C_DEPS) naloga4_1PRG2
+	-$(RM) $(CC_DEPS)$(C++_DEPS)$(EXECUTABLES)$(C_UPPER_DEPS)$(CXX_DEPS)$(OBJS)$(CPP_DEPS)$(C_DEPS) compositionAndAggregation
 	-@echo ' '
 
 .PHONY: all clean dependents
