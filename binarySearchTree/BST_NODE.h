@@ -37,11 +37,11 @@ public:
 		return leftChild;
 	}
 
-	void setLeftChild(const BST_NODE*& leftChild = nullptr) {
+	void setLeftChild(BST_NODE*& leftChild) {
 		this->leftChild = leftChild;
 	}
 
-	const BST_NODE*& getParent() const {
+	BST_NODE*& getParent() const{
 		return parent;
 	}
 
