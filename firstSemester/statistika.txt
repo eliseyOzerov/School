@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Naloga N6: Vislice</title>
+</head>
+<div>
+<span style="width:200px;display:table-cell;">kiki</span>
+<span style="width:200px;display:table-cell;">"replying"</span>
+<span style="width:100px;display:table-cell;">10</span>
+<span style="width:50px;display:table-cell;">3.62247</span>
+</div>
+<div>
+<span style="width:200px;display:table-cell;">elise</span>
+<span style="width:200px;display:table-cell;">"parties"</span>
+<span style="width:100px;display:table-cell;">10</span>
+<span style="width:50px;display:table-cell;">5.12606</span>
+</div>
+</html>
