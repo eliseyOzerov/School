@@ -41,19 +41,19 @@ public:
 		this->leftChild = leftChild;
 	}
 
-	BST_NODE*& getParent() const{
+	BST_NODE* getParent() const{
 		return parent;
 	}
 
-	void setParent(const BST_NODE*& parent = nullptr) {
+	void setParent(BST_NODE*& parent) {
 		this->parent = parent;
 	}
 
-	const BST_NODE*& getRightChild() const {
+	BST_NODE* getRightChild() const{
 		return rightChild;
 	}
 
-	void setRightChild(const BST_NODE*& rightChild = nullptr) {
+	void setRightChild(BST_NODE*& rightChild) {
 		this->rightChild = rightChild;
 	}
 };

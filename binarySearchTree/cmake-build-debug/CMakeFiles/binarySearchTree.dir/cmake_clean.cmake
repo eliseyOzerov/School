@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/binarySearchTree.dir/binarnoIskalnoDrevoAPS.cpp.obj"
+  "CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.obj"
   "CMakeFiles/binarySearchTree.dir/BST.cpp.obj"
   "binarySearchTree.pdb"
   "binarySearchTree.exe"

@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/BST.cpp" "C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir/BST.cpp.obj"
-  "C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/binarnoIskalnoDrevoAPS.cpp" "C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir/binarnoIskalnoDrevoAPS.cpp.obj"
+  "C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/binarySearchTree.cpp" "C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

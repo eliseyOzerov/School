@@ -149,32 +149,32 @@ BST.cpp.s:
 	$(MAKE) -f CMakeFiles\binarySearchTree.dir\build.make CMakeFiles/binarySearchTree.dir/BST.cpp.s
 .PHONY : BST.cpp.s
 
-binarnoIskalnoDrevoAPS.obj: binarnoIskalnoDrevoAPS.cpp.obj
+binarySearchTree.obj: binarySearchTree.cpp.obj
 
-.PHONY : binarnoIskalnoDrevoAPS.obj
+.PHONY : binarySearchTree.obj
 
 # target to build an object file
-binarnoIskalnoDrevoAPS.cpp.obj:
-	$(MAKE) -f CMakeFiles\binarySearchTree.dir\build.make CMakeFiles/binarySearchTree.dir/binarnoIskalnoDrevoAPS.cpp.obj
-.PHONY : binarnoIskalnoDrevoAPS.cpp.obj
+binarySearchTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\binarySearchTree.dir\build.make CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.obj
+.PHONY : binarySearchTree.cpp.obj
 
-binarnoIskalnoDrevoAPS.i: binarnoIskalnoDrevoAPS.cpp.i
+binarySearchTree.i: binarySearchTree.cpp.i
 
-.PHONY : binarnoIskalnoDrevoAPS.i
+.PHONY : binarySearchTree.i
 
 # target to preprocess a source file
-binarnoIskalnoDrevoAPS.cpp.i:
-	$(MAKE) -f CMakeFiles\binarySearchTree.dir\build.make CMakeFiles/binarySearchTree.dir/binarnoIskalnoDrevoAPS.cpp.i
-.PHONY : binarnoIskalnoDrevoAPS.cpp.i
+binarySearchTree.cpp.i:
+	$(MAKE) -f CMakeFiles\binarySearchTree.dir\build.make CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.i
+.PHONY : binarySearchTree.cpp.i
 
-binarnoIskalnoDrevoAPS.s: binarnoIskalnoDrevoAPS.cpp.s
+binarySearchTree.s: binarySearchTree.cpp.s
 
-.PHONY : binarnoIskalnoDrevoAPS.s
+.PHONY : binarySearchTree.s
 
 # target to generate assembly for a file
-binarnoIskalnoDrevoAPS.cpp.s:
-	$(MAKE) -f CMakeFiles\binarySearchTree.dir\build.make CMakeFiles/binarySearchTree.dir/binarnoIskalnoDrevoAPS.cpp.s
-.PHONY : binarnoIskalnoDrevoAPS.cpp.s
+binarySearchTree.cpp.s:
+	$(MAKE) -f CMakeFiles\binarySearchTree.dir\build.make CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.s
+.PHONY : binarySearchTree.cpp.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... BST.obj
 	@echo ... BST.i
 	@echo ... BST.s
-	@echo ... binarnoIskalnoDrevoAPS.obj
-	@echo ... binarnoIskalnoDrevoAPS.i
-	@echo ... binarnoIskalnoDrevoAPS.s
+	@echo ... binarySearchTree.obj
+	@echo ... binarySearchTree.i
+	@echo ... binarySearchTree.s
 .PHONY : help
 
 
