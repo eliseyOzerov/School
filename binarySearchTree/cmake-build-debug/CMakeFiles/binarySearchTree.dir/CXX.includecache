@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/BST.h
+BST_NODE.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/BST_NODE.h
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/BST_NODE.h
+iostream
+-
+string
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/binarySearchTree.cpp
+BST.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/BST.h
+iostream
+-
+
