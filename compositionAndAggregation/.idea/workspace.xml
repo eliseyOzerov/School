@@ -12,28 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4122eb96-e573-4301-9e9e-9ffb48af7ebe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/language.settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Calendar.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Calendar.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Date.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Date.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/DateTime.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/DateTime.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Event.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Event.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/MeetingEvent.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/MeetingEvent.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Time.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Time.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/compositionAndAggregation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/naloga4_1PRG2.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/naloga4_1PRG2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/objects.mk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/sources.mk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/subdir.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/compositionAndAggregation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compositionAndAggregation.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,34 +29,46 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/naloga4_1PRG2.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <element signature="e#84#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Repetition.h" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1910" />
     <option name="width" value="1942" />
     <option name="height" value="2092" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="compositionAndAggregation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compositionAndAggregation" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -83,6 +77,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/CLionProjects" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
@@ -116,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554152931505</updated>
-      <workItem from="1554152932874" duration="288000" />
+      <workItem from="1554152932874" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1554153057474</created>
@@ -125,21 +122,35 @@
       <option name="project" value="LOCAL" />
       <updated>1554153057474</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remove eclipse files">
+      <created>1554153231035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554153231035</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove eclipse files">
+      <created>1554153257239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554153257239</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288000" />
+    <option name="totallyTimeSpent" value="1240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="955" y="0" width="971" height="1046" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="CMake" />
@@ -161,7 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Remove eclipse files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove eclipse files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.project">
@@ -181,6 +193,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repetition.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naloga4_1PRG2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="e#84#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
