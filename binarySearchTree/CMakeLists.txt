@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(binarySearchTree
-        binarySearchTree.cpp
+        main.cpp
         BST.cpp
         BST.h
         BST_NODE.h)

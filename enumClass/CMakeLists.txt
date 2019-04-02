@@ -16,6 +16,6 @@ add_executable(compositionAndAggregation
         Event.h
         MeetingEvent.cpp
         MeetingEvent.h
-        naloga4_1PRG2.cpp
+        enumClassMain.cpp
         Time.cpp
         Time.h)
