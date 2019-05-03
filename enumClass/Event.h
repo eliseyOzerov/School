@@ -17,10 +17,14 @@ private:
 	std::string location;
 	DateTime startTime;
 	DateTime endTime;
+
 public:
+    enum class Repetition{none=0, daily, weekly, monthly, yearly};
 	Event(std::string name, std::string location,
 			DateTime startTime, DateTime endTime);
 	virtual std::string toString();
+	virtual Repetition getRepetition();
+	static std::string getRepetitionString(const Repetition &r);
 };
 
 #endif

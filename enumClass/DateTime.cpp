@@ -10,6 +10,7 @@
 
 DateTime::DateTime(Date date, Time time): date(date), time(time){}
 
+DateTime::DateTime(const Date &date) : date(date), time(0,0,0){}
 std::string DateTime::toString(){
 	std::string res;
 

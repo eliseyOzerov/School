@@ -18,6 +18,7 @@ private:
 	Time time;
 public:
 	DateTime(Date date, Time time);
+	DateTime(const Date &date);
 	bool isEqual(const DateTime& dateTime);
 	std::string toString();
 };

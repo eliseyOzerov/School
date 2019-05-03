@@ -15,7 +15,8 @@ private:
 	std::string person;
 public:
 	MeetingEvent(std::string name, std::string location, DateTime startDate, DateTime endDate, std::string person);
-	virtual std::string toString() override;
+	std::string toString();
+	Repetition getRepetition(){return Repetition::none;}
 };
 
 

@@ -9,6 +9,9 @@
 #define CALENDAR_H_
 
 #include "Event.h"
+#include "LectureEvent.h"
+#include "BirthdayEvent.h"
+#include "MeetingEvent.h"
 #include <string>
 #include <vector>
 

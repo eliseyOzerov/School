@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/BST.cpp
+BST.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/BST.h
+BST_NODE.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/BST_NODE.h
+iostream
+-
+string
+-
+fstream
+-
+
 C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/BST.h
 BST_NODE.h
 C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/BST_NODE.h
@@ -15,10 +27,6 @@ iostream
 -
 string
 -
-
-C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/binarySearchTree.cpp
-BST.h
-C:/Users/Elisey/OneDrive/Documents/GitHub/school/binarySearchTree/BST.h
-iostream
+list
 -
 

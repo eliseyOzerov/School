@@ -9,6 +9,7 @@
 #include "BST_NODE.h"
 #include <iostream>
 #include <string>
+#include <fstream>
 
 BST::BST(BST_NODE* node) : root(node){}
 BST::BST(){}
@@ -25,12 +26,14 @@ BST_NODE* BST::search(int value, BST_NODE* pRoot){
 	}
 }
 
-void BST::addNode(BST_NODE* nodeToAdd) {
+void BST::addMovie(int value, std::string data) {
+    BST_NODE* nodeToAdd = new BST_NODE(value);
     BST_NODE* tmp = nullptr;
     BST_NODE* pRoot = this->root;
     //if root is empty, set node as root and its parent to nullptr
-    if(this->root == nullptr){
-        this->root = nodeToAdd;
+    if(pRoot == nullptr){
+        nodeToAdd->addData(data);
+        setRoot(nodeToAdd);
         this->root->setParent(tmp);
         return;
     }
@@ -41,10 +44,13 @@ void BST::addNode(BST_NODE* nodeToAdd) {
         } else if(nodeToAdd->getValue() > pRoot->getValue()){
             pRoot = pRoot->getRightChild();
         } else {
-            std::cout << "Node already exists." << std::endl;
+            pRoot->addData(data);
+            delete nodeToAdd;
             return;
         }
     }
+
+    nodeToAdd->addData(data);
     nodeToAdd->setParent(tmp);
     if(tmp==nullptr){
         pRoot = nodeToAdd;
@@ -56,6 +62,22 @@ void BST::addNode(BST_NODE* nodeToAdd) {
         }
     }
 
+}
+
+void BST::addMoviesFromFile(std::string path){
+    std::string datum, ime;
+    std::ifstream in(path);
+    int N;
+    in >> N;
+    for(int i=0;i<N;i++){
+        in >> datum;
+        std::getline(in, ime, '\n');
+        addMovie(stoi(datum),ime);
+        if(i%1000==0){
+            std::cout << "*"<<std::flush;
+        }
+    }
+    std::cout << std::endl;
 }
 
 void BST::substituteForMaxOfLeftSubtree(BST_NODE* pNode){
@@ -181,10 +203,24 @@ void BST::deleteNode(int value) {
     delete pNode;
 }
 
+void BST::deleteTree(BST_NODE* root){
+    if(root->getRightChild() != nullptr){
+        deleteTree(root->getRightChild());
+    }
+    if(root->getLeftChild() != nullptr){
+        deleteTree(root->getLeftChild());
+    }
+    delete root;
+    return;
+}
+
 void BST::printTreeOrdered(BST_NODE* root) const {
     if(root!= nullptr){
         printTreeOrdered(root->getLeftChild());
-        std::cout << std::to_string(root->getValue()) << ' ';
+        std::cout << std::to_string(root->getValue()) << ':'<< std::endl;
+        for(std::string s : root->getData()){
+            std::cout << s << std::endl;
+        }
         printTreeOrdered(root->getRightChild());
     }
 }

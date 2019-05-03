@@ -16,11 +16,38 @@ Event::Event(std::string name, std::string location,
 		name(name), location(location),
 		startTime(startTime), endTime(endTime){}
 
+Event::Repetition Event::getRepetition(){}
+
+std::string Event::getRepetitionString(const Event::Repetition &r) {
+    std::string res;
+    switch (r){
+        case Repetition::none:
+            res = "None";
+            break;
+        case Repetition::daily:
+            res = "Daily";
+            break;
+        case Repetition::weekly:
+            res = "Weekly";
+            break;
+        case Repetition::monthly:
+            res = "Monthly";
+            break;
+        case Repetition::yearly:
+            res = "Yearly";
+            break;
+        default:
+            res = "Error";
+            break;
+    }
+    return res;
+}
+
 std::string Event::toString(){
 	std::string res;
 
 	res="Event:\n\nName: " + this->name + " Location: " + this->location +
-			" \nStart: " + this->startTime.toString() + " End: " + this->endTime.toString();
+			" \nStart: " + this->startTime.toString() + " End: " + this->endTime.toString() + " Repeat: " + Event::getRepetitionString(getRepetition());
 
 	return res;
 }

@@ -18,8 +18,10 @@ private:
 public:
 	BST(BST_NODE* root);
 	BST();
-	void addNode(BST_NODE* node);
+	void addMovie(int value, std::string data);
+	void addMoviesFromFile(std::string path);
 	void deleteNode(int value);
+	void deleteTree(BST_NODE* root);
 	void printTreeOrdered(BST_NODE* node) const;
 	void printConnections(BST_NODE* node) const;
 	void printParentAndChildren(int value);

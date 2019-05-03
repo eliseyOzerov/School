@@ -9,10 +9,12 @@
 #define BST_NODE_H_
 #include <iostream>
 #include <string>
+#include <list>
 
 class BST_NODE {
 private:
 	int value;
+	std::list<std::string> data;
 	BST_NODE* parent = nullptr;
 	BST_NODE* leftChild = nullptr;
 	BST_NODE* rightChild = nullptr;
@@ -23,6 +25,14 @@ public:
 
 	void printNode() const {
 		std::cout << std::to_string(this->value) << ' ';
+	}
+
+	void addData(std::string string){
+	    data.push_front(string);
+	}
+
+	std::list<std::string> getData(){
+	    return data;
 	}
 
 	int getValue() const {

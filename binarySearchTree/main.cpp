@@ -11,15 +11,17 @@
 bool menu(BST& bst){
     int meniIzbira;
     int vrednost;
+    std::string niz;
     std::cout << "Binarno iskalno drevo - izbira: " << std::endl;
-    std::cout << "1) Vnos podatka" << std::endl;
-    std::cout << "2) Urejen izpis vrednosti" << std::endl;
+    std::cout << "1) Vnos filma" << std::endl;
+    std::cout << "2) Urejen izpis filmov" << std::endl;
     std::cout << "3) Izpis povezav" << std::endl;
-    std::cout << "4) Iskanje" << std::endl;
+    std::cout << "4) Iskanje po datumu izdaje" << std::endl;
     std::cout << "5) Poisci minimum in maksimum" << std::endl;
     std::cout << "6) Poisci predhodnika in naslednika" << std::endl;
-    std::cout << "7) Brisi vrednost" << std::endl;
-    std::cout << "8) Konec" << std::endl << std::endl;
+    std::cout << "7) Brisi datum" << std::endl;
+    std::cout << "8) Nalaganje filmov iz datoteke" << std::endl;
+    std::cout << "9) Konec" << std::endl << std::endl;
     std::cout << "Izbira: " ;
     while(!(std::cin>>meniIzbira)){
         std::cin.clear();
@@ -28,13 +30,13 @@ bool menu(BST& bst){
     }
     switch(meniIzbira){
         case 1:
-            std::cout << "Vnesi vrednost[int]: ";
-            while(!(std::cin>>vrednost)){
+            std::cout << "Vnesi kljuc[int] in niz[string]: ";
+            while(!(std::cin>>vrednost) || !(std::cin>>niz)){
                 std::cin.clear();
                 std::cin.ignore();
                 std::cout << "Napacen vnos, ponovi: ";
             }
-            bst.addNode(new BST_NODE(vrednost));
+            bst.addMovie(vrednost, niz);
             break;
         case 2:
             if(bst.getRoot()== nullptr) {std::cout << "Drevo prazno." << std::endl;break;}
@@ -85,14 +87,16 @@ bool menu(BST& bst){
             bst.deleteNode(vrednost);
             break;
         case 8:
+            std::cout<<"Adding movies from specified file..." << std::endl;
+            bst.addMoviesFromFile("C:\\Users\\Elisey\\OneDrive\\Desktop\\IMDB_date_name_mini.list");
+            break;
+        case 9:
+            std::cout << "Program finished. Deleting tree..." << std::endl;
+            bst.deleteTree(bst.getRoot());
             return false;
         default:
             std::cout << "Napacen vnos, ponovi." << std::endl;
             break;
-    }
-    if(bst.getRoot()!=nullptr){
-        bst.printTreeOrdered(bst.getRoot());
-        std::cout << std::endl;
     }
     return true;
 }
