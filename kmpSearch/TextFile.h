@@ -9,16 +9,16 @@
 
 class TextFile {
 private:
-    std::vector<unsigned char> file;
+    std::string file;
 public:
     //Constructors
     TextFile();
-    TextFile(std::string text);
+    TextFile(std::string path);
     //Destructor
     ~TextFile();
     //Getters & Setters
-    std::vector<unsigned char> getTextFile();
-    void setTextFile(std::string text);
+    std::string getTextFile();
+    void setTextFile(std::string path);
     //Search functions
     std::vector<unsigned int> kmpSearch(const std::string pattern);
 };

@@ -6,19 +6,42 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <bits/ios_base.h>
+#include <fstream>
+#include <sstream>
+#include <exception>
 
 TextFile::TextFile() {}
-TextFile::TextFile(std::string text) {
-    std::copy(text.begin(), text.end(), std::back_inserter(this->file));
+TextFile::TextFile(std::string path) {
+    std::ifstream ifs (path, std::ifstream::in);
+    if(ifs.is_open()){
+        std::stringstream ss;
+        ss << ifs.rdbuf();
+        this->file = ss.str();
+        ifs.close();
+    } else {
+        std::cout << "Ifstream error.\n";
+    }
+
 }
 TextFile::~TextFile() {}
 
-std::vector<unsigned char> TextFile::getTextFile(){
+std::string TextFile::getTextFile(){
     return this->file;
 }
 
-void TextFile::setTextFile(std::string text){
-    std::copy(text.begin(), text.end(), std::back_inserter(this->file));
+void TextFile::setTextFile(std::string path){
+    std::ifstream ifs (path, std::ifstream::in);
+    if(ifs.is_open()){
+        std::stringstream ss;
+        ss << ifs.rdbuf();
+        this->file = ss.str();
+        ifs.close();
+    } else {
+        std::cout << "Ifstream error.\n";
+        return;
+    }
+
 }
 
 std::vector<unsigned int> TextFile::kmpSearch(const std::string pattern){
@@ -33,7 +56,7 @@ std::vector<unsigned int> TextFile::kmpSearch(const std::string pattern){
     for (i = 2; i < size; i++) {
         /*
          * Primerjamo crke na kmpNext[j] in kmpNext[i-1]
-         * V kolikor sta enaki, povecamo ob indeksa
+         * V kolikor sta enaki, povecamo oba indeksa
          * V kolikor nista, zmanjsujemo j za 1 dokler ni enak nic
          * (Ker smo ze primerjali vse prejsnje crke, lahko zmanjsujemo j za ena.
          * Tako vidimo, ali je konec trenutnega sufixa enak koncu katerega od prejsnjih prefixov,
@@ -48,5 +71,27 @@ std::vector<unsigned int> TextFile::kmpSearch(const std::string pattern){
     }
 
     //Iskanje
+    int iB = 0; //indeks crke besedila
+    int iVz = 0; //indeks crke vzorca
+    std::vector<unsigned int> results; //vektor z indeksi besedila, kjer se pojavlja vzorec
 
+    while(iB < (this->file.size() - pattern.size()+1)){
+        if(this->file[iB] == pattern[iVz]){
+            if(iVz == pattern.size()-1){
+                results.push_back(iB-iVz);
+                iVz = 0;
+            } else {
+                iVz++;
+            }
+            iB++;
+        } else {
+            if(iVz == 0){
+                iB++;
+            } else {
+                iVz-=iVz-kmpNext[iVz];
+            }
+        }
+    }
+
+    return results;
 }
