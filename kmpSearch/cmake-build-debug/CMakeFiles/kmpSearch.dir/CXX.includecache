@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/kmpSearch/TextFile.h
+vector
+-
+string
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/kmpSearch/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+TextFile.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/kmpSearch/TextFile.h
+

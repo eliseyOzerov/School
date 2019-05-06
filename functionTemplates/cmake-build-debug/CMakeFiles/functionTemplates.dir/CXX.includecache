@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/functionTemplates/Date.h
+string
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/functionTemplates/main.cpp
+iostream
+-
+list
+-
+templates.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/functionTemplates/templates.h
+vector
+-
+exception
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/functionTemplates/templates.h
+vector
+-
+string
+-
+Date.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/functionTemplates/Date.h
+

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/quickSortDLL/DLL.h
+Node.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/quickSortDLL/Node.h
+iostream
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/quickSortDLL/Node.h
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/quickSortDLL/main.cpp
+iostream
+-
+vector
+-
+limits
+-
+math.h
+-
+time.h
+-
+DLL.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/quickSortDLL/DLL.h
+chrono
+-
+

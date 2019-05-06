@@ -1,0 +1,3 @@
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/quickSort/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/quickSort/cmake-build-debug/CMakeFiles/quickSort.dir
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/quickSort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
