@@ -50,7 +50,7 @@ template<> bool isAfter<Date>(const Date &x, const Date &y){
     return true;
 }
 
-template<typename T> void bubbleSort(std::vector<T>& vec, bool order){
+template<typename T, bool order = true> void bubbleSort(std::vector<T>& vec){
     if(order){
         for (int i = 0; i < vec.size()-1; i++)
 

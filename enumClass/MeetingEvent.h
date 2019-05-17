@@ -16,7 +16,7 @@ private:
 public:
 	MeetingEvent(std::string name, std::string location, DateTime startDate, DateTime endDate, std::string person);
 	std::string toString();
-	Repetition getRepetition(){return Repetition::none;}
+	Repetition getRepetition() const override {return Repetition::none;}
 };
 
 

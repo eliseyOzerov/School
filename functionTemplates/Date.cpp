@@ -19,4 +19,3 @@ std::string Date::toString(){
 bool Date::isEqual(const Date& second){
     return this->day == second.day && this->month==second.month && this->year==second.year; //ASK WHY IS THIS POSSIBLE
 }
-

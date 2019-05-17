@@ -11,7 +11,7 @@
 
 Time::Time(int hour, int minute, int second): hour(hour), minute(minute), second(second){}
 
-std::string Time::toString(){
+std::string Time::toString()const {
 	std::string res;
 	std::string hour = "";
 	std::string minute = "";
@@ -36,6 +36,6 @@ std::string Time::toString(){
 	return res;
 }
 
-bool Time::isEqual(const Time& second){
+bool Time::isEqual(const Time& second)const {
 	return this->hour == second.hour && this->minute==second.minute && this->second==second.second; //ASK WHY IS THIS POSSIBLE
 }

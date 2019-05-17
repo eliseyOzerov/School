@@ -16,6 +16,6 @@ add_executable(compositionAndAggregation
         Event.h
         MeetingEvent.cpp
         MeetingEvent.h
-        enumClassMain.cpp
+        main.cpp
         Time.cpp
         Time.h LectureEvent.cpp LectureEvent.h BirthdayEvent.cpp BirthdayEvent.h)

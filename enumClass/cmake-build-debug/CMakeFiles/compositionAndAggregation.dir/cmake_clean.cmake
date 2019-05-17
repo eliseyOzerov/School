@@ -4,7 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj"
   "CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj"
   "CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj"
-  "CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.obj"
+  "CMakeFiles/compositionAndAggregation.dir/main.cpp.obj"
   "CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj"
   "CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj"
   "CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj"

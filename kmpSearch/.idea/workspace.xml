@@ -12,16 +12,110 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1b33fc9-a46d-45a7-9525-31125aa04e32" name="Default Changelist" comment="Add">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/.idea/quickSort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextFile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TextFile.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextFile.h" beforeDir="false" afterPath="$PROJECT_DIR$/TextFile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/.idea/graphTraversal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/Graph.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/Graph.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/huffmanCompression.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/Huffman.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/Huffman.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/huffmanCompression.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/.idea/myStack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/Date.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/Date.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/MyStack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binaryRadixSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../binaryRadixSort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/compositionAndAggregation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/compositionAndAggregation.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/BirthdayEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/BirthdayEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Calendar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Calendar.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Calendar.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Calendar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Date.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Date.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Date.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Date.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/DateTime.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/DateTime.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/DateTime.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/DateTime.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Event.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Event.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Event.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Event.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/LectureEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/LectureEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/MeetingEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/MeetingEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Time.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Time.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Time.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Time.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Date.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Date.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/compositionAndAggregation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/compositionAndAggregation.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/compositionAndAggregation.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/compositionAndAggregation.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/enumClassMain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/Date.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/Date.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/CMakeFiles/functionTemplates.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/CMakeFiles/functionTemplates.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/CMakeFiles/functionTemplates.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/CMakeFiles/functionTemplates.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/functionTemplates.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/functionTemplates.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/templates.h" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/templates.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../podBaze/naloga30_inVinoVeritas.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/../podBaze/naloga30_inVinoVeritas.mwb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../podBaze/naloga30_inVinoVeritas.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../podBaze/naloga30_inVinoVeritas.mwb.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../podBaze/script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/DLL.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/DLL.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/DLL.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/DLL.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/quickSortDLL.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/quickSortDLL.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+            <state relative-caret-position="634">
+              <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -60,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TextFile.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
+            <state relative-caret-position="528">
               <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="e#43#64#0" expanded="true" />
@@ -72,7 +166,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TextFile.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="456">
               <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
@@ -132,6 +226,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../enumClass" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -180,17 +275,23 @@
       <workItem from="1554884768882" duration="599000" />
       <workItem from="1554892127738" duration="166000" />
       <workItem from="1556964070793" duration="8668000" />
+      <workItem from="1557869926167" duration="21000" />
+      <workItem from="1557870054247" duration="10000" />
+      <workItem from="1557871139353" duration="304000" />
+      <workItem from="1557871636607" duration="50000" />
+      <workItem from="1557871731261" duration="25000" />
+      <workItem from="1557871928003" duration="14000" />
+      <workItem from="1557872397630" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26562000" />
+    <option name="totallyTimeSpent" value="27011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -201,7 +302,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -252,12 +353,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TextFile.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/locations.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -268,7 +368,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TextFile.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
+        <state relative-caret-position="528">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="e#43#64#0" expanded="true" />
@@ -276,10 +376,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TextFile.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        <state relative-caret-position="634">
+          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

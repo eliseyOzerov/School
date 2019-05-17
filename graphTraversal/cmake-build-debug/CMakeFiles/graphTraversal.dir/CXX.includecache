@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/graphTraversal/Graph.h
+map
+-
+vector
+-
+stack
+-
+queue
+-
+unordered_map
+-
+fstream
+-
+limits
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/graphTraversal/main.cpp
+iostream
+-
+Graph.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/graphTraversal/Graph.h
+map
+-
+unordered_map
+-
+math.h
+-
+string
+-
+chrono
+-
+

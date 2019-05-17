@@ -10,22 +10,110 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef816219-b19d-43d5-8761-95d351cba928" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../binaryRadixSort/.idea/binaryRadixSort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../binaryRadixSort/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../binaryRadixSort/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../binaryRadixSort/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../binaryRadixSort/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../binaryRadixSort/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmpSearch/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmpSearch/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/.idea/quickSort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quickSort/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kmpSearch/TextFile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../kmpSearch/TextFile.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kmpSearch/TextFile.h" beforeDir="false" afterPath="$PROJECT_DIR$/../kmpSearch/TextFile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/.idea/graphTraversal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/Graph.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/Graph.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphTraversal/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/huffmanCompression.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/Huffman.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/Huffman.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/huffmanCompression.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huffmanCompression/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/.idea/myStack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/Date.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/Date.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/MyStack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStack/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binaryRadixSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../binaryRadixSort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../binaryRadixSort/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/compositionAndAggregation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../compositionAndAggregation/cmake-build-debug/compositionAndAggregation.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/BirthdayEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/BirthdayEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Calendar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Calendar.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Calendar.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Calendar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Date.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Date.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Date.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Date.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/DateTime.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/DateTime.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/DateTime.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/DateTime.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Event.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Event.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Event.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Event.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/LectureEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/LectureEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/MeetingEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/MeetingEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Time.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Time.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/Time.h" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/Time.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Date.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Date.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/compositionAndAggregation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/compositionAndAggregation.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/compositionAndAggregation.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/compositionAndAggregation.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/enumClassMain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/Date.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/Date.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/CMakeFiles/functionTemplates.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/CMakeFiles/functionTemplates.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/CMakeFiles/functionTemplates.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/CMakeFiles/functionTemplates.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/functionTemplates.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/cmake-build-debug/functionTemplates.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functionTemplates/templates.h" beforeDir="false" afterPath="$PROJECT_DIR$/../functionTemplates/templates.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmpSearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kmpSearch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmpSearch/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../kmpSearch/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmpSearch/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../kmpSearch/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmpSearch/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../kmpSearch/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmpSearch/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../kmpSearch/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../podBaze/naloga30_inVinoVeritas.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/../podBaze/naloga30_inVinoVeritas.mwb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../podBaze/naloga30_inVinoVeritas.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../podBaze/naloga30_inVinoVeritas.mwb.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../podBaze/script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/DLL.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/DLL.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/DLL.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/DLL.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/CMakeFiles/quickSortDLL.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/quickSortDLL.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/cmake-build-debug/quickSortDLL.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSortDLL/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSortDLL/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +125,12 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vaja1_ARA.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="43" selection-start-line="43" selection-end-line="62" selection-end-column="1" />
+            <state relative-caret-position="600">
+              <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -63,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,10 +163,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -107,23 +196,20 @@
       <option name="presentableId" value="Default" />
       <updated>1556996864880</updated>
       <workItem from="1556996865965" duration="38000" />
+      <workItem from="1557872661814" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38000" />
+    <option name="totallyTimeSpent" value="93000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25226668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -131,10 +217,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,8 +233,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vaja1_ARA.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="43" selection-start-line="43" selection-end-line="62" selection-end-column="1" />
+        <state relative-caret-position="600">
+          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
         </state>
       </provider>
     </entry>

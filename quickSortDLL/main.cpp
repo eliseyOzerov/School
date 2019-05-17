@@ -105,10 +105,8 @@ bool menu(DLL& dll){
 }
 
 int main() {
-    int value;
     DLL dll;
     srand(time(nullptr));
     while(menu(dll)){}
     return 0;
-
 }

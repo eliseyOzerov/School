@@ -16,11 +16,11 @@ private:
 	int year;
 public:
 	Date(int day, int month, int year);
-	std::string toString();
-	int getDay(){return this->day;}
-	int getMonth(){return this->month;}
-	int getYear(){return this->year;}
-	bool isEqual(const Date& second);
+	std::string toString()const ;
+	int getDay()const {return this->day;}
+	int getMonth()const {return this->month;}
+	int getYear()const {return this->year;}
+	bool isEqual(const Date& second)const ;
 };
 
 #endif

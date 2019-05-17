@@ -13,7 +13,7 @@
 
 Date::Date(int day, int month, int year) : day(day), month(month), year(year){}
 
-std::string Date::toString(){
+std::string Date::toString()const {
 	std::string res;
 
 	res = std::to_string(this->day) +
@@ -22,6 +22,6 @@ std::string Date::toString(){
 	return res;
 }
 
-bool Date::isEqual(const Date& second){
+bool Date::isEqual(const Date& second)const {
 	return this->day == second.day && this->month==second.month && this->year==second.year; //ASK WHY IS THIS POSSIBLE
 }

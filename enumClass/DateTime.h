@@ -19,8 +19,8 @@ private:
 public:
 	DateTime(Date date, Time time);
 	DateTime(const Date &date);
-	bool isEqual(const DateTime& dateTime);
-	std::string toString();
+	bool isEqual(const DateTime& dateTime) const;
+	std::string toString() const;
 };
 
 #endif

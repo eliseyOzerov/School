@@ -9,7 +9,7 @@
 class LectureEvent: public Event {
 public:
     LectureEvent(std::string name, std::string location, DateTime start, DateTime end): Event(name, location, start, end){}
-    Repetition getRepetition() override {return Repetition::weekly;}
+    Repetition getRepetition() const override {return Repetition::weekly;}
 };
 
 

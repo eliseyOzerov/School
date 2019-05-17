@@ -10,11 +10,11 @@
  */
 int main() {
     std::vector<int> vecI = { 100, 35, 7, 21, 89, 10, 148, 983, 33, 29 };
-    std::vector<Date> vecDate = {Date(10, 1, 2010), Date(11, 3, 2011), Date(12, 4, 2177)};
+    std::vector<Date> vecDate = {Date(10, 1, 2010), Date(13, 3, 2011), Date(12, 3, 2011)};
     std::string s = "12345";
     std::string s2 = "123456";
     printVector<int>(vecI);
-    bubbleSort(vecI, 0);
+    bubbleSort<int, 0>(vecI);
     printVector(vecI);
     printVector<Date>(vecDate);
     std::cout << isAfter(vecDate[1], vecDate[2]) << '\n';

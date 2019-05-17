@@ -16,7 +16,7 @@ Event::Event(std::string name, std::string location,
 		name(name), location(location),
 		startTime(startTime), endTime(endTime){}
 
-Event::Repetition Event::getRepetition(){}
+Event::Repetition Event::getRepetition() const{}
 
 std::string Event::getRepetitionString(const Event::Repetition &r) {
     std::string res;
@@ -40,13 +40,14 @@ std::string Event::getRepetitionString(const Event::Repetition &r) {
             res = "Error";
             break;
     }
+    res+="\n\n";
     return res;
 }
 
-std::string Event::toString(){
+std::string Event::toString() const{
 	std::string res;
 
-	res="Event:\n\nName: " + this->name + " Location: " + this->location +
+	res="Event:\nName: " + this->name + " Location: " + this->location +
 			" \nStart: " + this->startTime.toString() + " End: " + this->endTime.toString() + " Repeat: " + Event::getRepetitionString(getRepetition());
 
 	return res;

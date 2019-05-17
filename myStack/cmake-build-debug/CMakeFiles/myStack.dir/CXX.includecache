@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/myStack/Date.h
+string
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/myStack/MyStack.h
+vector
+-
+string
+-
+iostream
+-
+math.h
+-
+Date.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/myStack/Date.h
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/myStack/main.cpp
+iostream
+-
+MyStack.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/myStack/MyStack.h
+

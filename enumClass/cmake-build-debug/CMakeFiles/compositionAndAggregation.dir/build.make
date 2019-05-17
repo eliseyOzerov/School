@@ -126,19 +126,19 @@ CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\MeetingEvent.cpp -o CMakeFiles\compositionAndAggregation.dir\MeetingEvent.cpp.s
 
-CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.obj: CMakeFiles/compositionAndAggregation.dir/flags.make
-CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.obj: CMakeFiles/compositionAndAggregation.dir/includes_CXX.rsp
-CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.obj: ../enumClassMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\compositionAndAggregation.dir\enumClassMain.cpp.obj -c C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\enumClassMain.cpp
+CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: CMakeFiles/compositionAndAggregation.dir/flags.make
+CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: CMakeFiles/compositionAndAggregation.dir/includes_CXX.rsp
+CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/compositionAndAggregation.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\compositionAndAggregation.dir\main.cpp.obj -c C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\main.cpp
 
-CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\enumClassMain.cpp > CMakeFiles\compositionAndAggregation.dir\enumClassMain.cpp.i
+CMakeFiles/compositionAndAggregation.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compositionAndAggregation.dir/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\main.cpp > CMakeFiles\compositionAndAggregation.dir\main.cpp.i
 
-CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\enumClassMain.cpp -o CMakeFiles\compositionAndAggregation.dir\enumClassMain.cpp.s
+CMakeFiles/compositionAndAggregation.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compositionAndAggregation.dir/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\main.cpp -o CMakeFiles\compositionAndAggregation.dir\main.cpp.s
 
 CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj: CMakeFiles/compositionAndAggregation.dir/flags.make
 CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj: CMakeFiles/compositionAndAggregation.dir/includes_CXX.rsp
@@ -189,7 +189,7 @@ compositionAndAggregation_OBJECTS = \
 "CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj" \
 "CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj" \
 "CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj" \
-"CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.obj" \
+"CMakeFiles/compositionAndAggregation.dir/main.cpp.obj" \
 "CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj" \
 "CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj" \
 "CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj"
@@ -202,7 +202,7 @@ compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/Date.cpp
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj
-compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.obj
+compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/main.cpp.obj
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj

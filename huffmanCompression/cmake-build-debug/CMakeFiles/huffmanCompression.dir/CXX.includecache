@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/huffmanCompression/Huffman.cpp
+Huffman.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/huffmanCompression/Huffman.h
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/huffmanCompression/Huffman.h
+vector
+-
+fstream
+-
+queue
+-
+iostream
+-
+unordered_map
+-
+

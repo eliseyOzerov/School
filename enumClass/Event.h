@@ -19,12 +19,17 @@ private:
 	DateTime endTime;
 
 public:
+    std::string getName() const {return this->name;}
+    void setName(const std::string &name) {this->name = name;}
+    std::string getLocation() const {return this->location;}
+    void setLocation(const std::string &loc){this->location = loc;}
     enum class Repetition{none=0, daily, weekly, monthly, yearly};
 	Event(std::string name, std::string location,
 			DateTime startTime, DateTime endTime);
-	virtual std::string toString();
-	virtual Repetition getRepetition();
+	virtual std::string toString() const;
+	virtual Repetition getRepetition() const;
 	static std::string getRepetitionString(const Repetition &r);
+
 };
 
 #endif

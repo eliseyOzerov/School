@@ -338,32 +338,32 @@ Time.cpp.s:
 	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Time.cpp.s
 .PHONY : Time.cpp.s
 
-enumClassMain.obj: enumClassMain.cpp.obj
+main.obj: main.cpp.obj
 
-.PHONY : enumClassMain.obj
+.PHONY : main.obj
 
 # target to build an object file
-enumClassMain.cpp.obj:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.obj
-.PHONY : enumClassMain.cpp.obj
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-enumClassMain.i: enumClassMain.cpp.i
+main.i: main.cpp.i
 
-.PHONY : enumClassMain.i
+.PHONY : main.i
 
 # target to preprocess a source file
-enumClassMain.cpp.i:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.i
-.PHONY : enumClassMain.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-enumClassMain.s: enumClassMain.cpp.s
+main.s: main.cpp.s
 
-.PHONY : enumClassMain.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-enumClassMain.cpp.s:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.s
-.PHONY : enumClassMain.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -398,9 +398,9 @@ help:
 	@echo ... Time.obj
 	@echo ... Time.i
 	@echo ... Time.s
-	@echo ... enumClassMain.obj
-	@echo ... enumClassMain.i
-	@echo ... enumClassMain.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

@@ -92,14 +92,13 @@ Node* DLL::deli(Node* dno, Node* vrh){
     bool crossed = false;
     while(!crossed){
         while(dn->getValue() <= pivot && dn != vrh){
-            if(vr==dn)crossed=true;
             dn = dn->getNext();
+            if(vr==dn)crossed=true;
         }
         while(vr->getValue() >= pivot && vr != dno){
-            if(vr==dn)crossed=true;
             vr = vr->getPrev();
+            if(vr==dn)crossed=true;
         }
-        if(vr==dn)crossed=true;
         if(!crossed){
             swapValues(vr, dn);
         }

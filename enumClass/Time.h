@@ -17,10 +17,10 @@ private:
 	int second;
 public:
 	Time(int hour, int minute, int second);
-	std::string toString();
-	int getHour(){return this->hour;}
-	int getMinute(){return this->minute;}
-	int getSecond(){return this->second;}
-	bool isEqual(const Time& second);
+	std::string toString()const;
+	int getHour()const {return this->hour;}
+	int getMinute()const {return this->minute;}
+	int getSecond()const {return this->second;}
+	bool isEqual(const Time& second)const;
 };
 #endif

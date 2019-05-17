@@ -10,7 +10,7 @@
 class BirthdayEvent: public Event {
 public:
     BirthdayEvent(std::string name, std::string location, DateTime start, DateTime end) : Event(name, location, start, end){}
-    Repetition getRepetition(){return Repetition ::yearly;}
+    Repetition getRepetition() const override {return Repetition ::yearly;}
 };
 
 

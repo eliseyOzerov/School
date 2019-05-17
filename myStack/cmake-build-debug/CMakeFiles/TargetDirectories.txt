@@ -1,0 +1,3 @@
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/myStack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/myStack/cmake-build-debug/CMakeFiles/myStack.dir
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/myStack/cmake-build-debug/CMakeFiles/edit_cache.dir

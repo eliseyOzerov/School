@@ -12,7 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/LectureEvent.cpp" "C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj"
   "C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/MeetingEvent.cpp" "C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj"
   "C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.cpp" "C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj"
-  "C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/enumClassMain.cpp" "C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/enumClassMain.cpp.obj"
+  "C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/main.cpp" "C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
