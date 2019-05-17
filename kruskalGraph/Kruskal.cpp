@@ -22,6 +22,10 @@ void Kruskal::readGraphFromFile(const std::string &pathToFile) {
     } else {
         std::cout << "Ifstream error.\n";
     }
+    this->sortConnections(0, this->povezave.size()-1);
+    for(auto c : this->povezave){
+        std::cout << c->v1 << " -> " << c->v2 << " : " << c->cena <<'\n';
+    }
 }
 
 Kruskal* Kruskal::generateRandomGraph(const int &numOfNodes) {
@@ -49,38 +53,29 @@ void Kruskal::print() {
 
 }
 
-Kruskal::Povezava* Kruskal::divide(Povezava* p1, Povezava* p2){
-
-    int pivot = p1->cena;
-    Povezava* dn = p1;
-    Povezava* vr = p2;
-    bool crossed = false;
-    while(!crossed){
-        while(dn->cena <= pivot && dn != p2){
-            dn = dn->getNext();
-            if(vr==dn)crossed=true;
+int Kruskal::divide(int dno, int vrh){
+    int pivot = this->povezave.front()->cena;
+    int dn = dno;
+    int vr = vrh;
+    while(vr>dn){
+        while(this->povezave[dn]->cena <= pivot && dn < vrh){
+            dn++;
         }
-        while(vr->cena >= pivot && vr != p1){
-            vr = vr->getPrev();
-            if(vr==dn)crossed=true;
+        while(this->povezave[vr]->cena >= pivot && vr > dno){
+            vr--;
         }
-        if(!crossed){
-            swapValues(vr, dn);
+        if(vr > dn){
+            std::swap(this->povezave[dn], this->povezave[vr]);
         }
     }
-    swapValues(p1, vr);
+    std::swap(this->povezave[dno], this->povezave[vr]);
     return vr;
 }
 
-void Kruskal::sortConnections(Povezava* p1, Povezava* p2){
-    if(p1 != p2){
-        Povezava* j = divide(p1, p2);
-        if(j!=p1){
-            quickSort(p1, j->getPrev());
-        }
-        if(j!=p2){
-            quickSort(j->getNext(), p2);
-        }
-
+void Kruskal::sortConnections(int dno, int vrh){
+    if(dno < vrh){
+        int j = divide(dno, vrh);
+        sortConnections(dno, j-1);
+        sortConnections(j+1, vrh);
     }
 }
