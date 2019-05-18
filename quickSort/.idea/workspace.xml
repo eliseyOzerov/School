@@ -13,6 +13,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5ad8a6d4-b588-4198-82c4-f6ee8bbe9226" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../kruskalGraph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/Kruskal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/Kruskal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/Kruskal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/Kruskal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/CMakeFiles/kruskalGraph.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/CMakeFiles/kruskalGraph.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/CMakeFiles/kruskalGraph.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/CMakeFiles/kruskalGraph.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/CMakeFiles/kruskalGraph.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/CMakeFiles/kruskalGraph.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/CMakeFiles/kruskalGraph.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/CMakeFiles/kruskalGraph.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/CMakeFiles/kruskalGraph.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/CMakeFiles/kruskalGraph.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/kruskalGraph.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/cmake-build-debug/kruskalGraph.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="456">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -62,7 +71,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,6 +82,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,6 +133,7 @@
       <workItem from="1557088452884" duration="5000" />
       <workItem from="1557092181078" duration="85000" />
       <workItem from="1558097179446" duration="15000" />
+      <workItem from="1558182982963" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1556870699527</created>
@@ -136,13 +146,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14857000" />
+    <option name="totallyTimeSpent" value="14888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12906666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -209,8 +219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="456">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

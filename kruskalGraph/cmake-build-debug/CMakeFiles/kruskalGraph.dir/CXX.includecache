@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Elisey/OneDrive/Documents/GitHub/school/kruskalGraph/main.cpp
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/kruskalGraph/Kruskal.cpp
+fstream
+-
 iostream
+-
+Kruskal.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/kruskalGraph/Kruskal.h
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/kruskalGraph/Kruskal.h
+vector
+-
+unordered_map
 -
 
