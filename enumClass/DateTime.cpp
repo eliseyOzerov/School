@@ -8,7 +8,7 @@
 #include "DateTime.h"
 #include <string>
 
-DateTime::DateTime(Date date, Time time): date(date), time(time){}
+DateTime::DateTime(Date date, TimeClass time): date(date), time(time){}
 
 DateTime::DateTime(const Date &date) : date(date), time(0,0,0){}
 std::string DateTime::toString() const{
@@ -21,6 +21,32 @@ std::string DateTime::toString() const{
 
 bool DateTime::isEqual(const DateTime& dt) const{
 	return this->date.isEqual(dt.date) && this->time.isEqual(dt.time);
+}
+
+void DateTime::addWeeks(int weeks) {
+    for(int i = 0; i < 7*weeks; i++){
+        this->date++;
+    }
+}
+
+bool DateTime::operator<(const DateTime &second) {
+    if(this->date < second.date){
+        return true;
+    } else {
+        return this->time < second.time;
+    }
+}
+
+bool DateTime::operator>(const DateTime &second) {
+    if(this->date > second.date){
+        return true;
+    } else {
+        return this->time > second.time;
+    }
+}
+
+bool DateTime::operator==(const DateTime &second) {
+    return this->date == second.date && this->time == second.time;
 }
 
 

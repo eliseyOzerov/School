@@ -311,32 +311,32 @@ MeetingEvent.cpp.s:
 	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.s
 .PHONY : MeetingEvent.cpp.s
 
-Time.obj: Time.cpp.obj
+TimeClass.obj: TimeClass.cpp.obj
 
-.PHONY : Time.obj
+.PHONY : TimeClass.obj
 
 # target to build an object file
-Time.cpp.obj:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj
-.PHONY : Time.cpp.obj
+TimeClass.cpp.obj:
+	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.obj
+.PHONY : TimeClass.cpp.obj
 
-Time.i: Time.cpp.i
+TimeClass.i: TimeClass.cpp.i
 
-.PHONY : Time.i
+.PHONY : TimeClass.i
 
 # target to preprocess a source file
-Time.cpp.i:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Time.cpp.i
-.PHONY : Time.cpp.i
+TimeClass.cpp.i:
+	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.i
+.PHONY : TimeClass.cpp.i
 
-Time.s: Time.cpp.s
+TimeClass.s: TimeClass.cpp.s
 
-.PHONY : Time.s
+.PHONY : TimeClass.s
 
 # target to generate assembly for a file
-Time.cpp.s:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Time.cpp.s
-.PHONY : Time.cpp.s
+TimeClass.cpp.s:
+	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.s
+.PHONY : TimeClass.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -395,9 +395,9 @@ help:
 	@echo ... MeetingEvent.obj
 	@echo ... MeetingEvent.i
 	@echo ... MeetingEvent.s
-	@echo ... Time.obj
-	@echo ... Time.i
-	@echo ... Time.s
+	@echo ... TimeClass.obj
+	@echo ... TimeClass.i
+	@echo ... TimeClass.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

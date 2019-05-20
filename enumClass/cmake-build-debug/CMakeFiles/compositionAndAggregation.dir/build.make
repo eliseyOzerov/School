@@ -140,19 +140,19 @@ CMakeFiles/compositionAndAggregation.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compositionAndAggregation.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\main.cpp -o CMakeFiles\compositionAndAggregation.dir\main.cpp.s
 
-CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj: CMakeFiles/compositionAndAggregation.dir/flags.make
-CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj: CMakeFiles/compositionAndAggregation.dir/includes_CXX.rsp
-CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj: ../Time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\compositionAndAggregation.dir\Time.cpp.obj -c C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\Time.cpp
+CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.obj: CMakeFiles/compositionAndAggregation.dir/flags.make
+CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.obj: CMakeFiles/compositionAndAggregation.dir/includes_CXX.rsp
+CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.obj: ../TimeClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\compositionAndAggregation.dir\TimeClass.cpp.obj -c C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\TimeClass.cpp
 
-CMakeFiles/compositionAndAggregation.dir/Time.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compositionAndAggregation.dir/Time.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\Time.cpp > CMakeFiles\compositionAndAggregation.dir\Time.cpp.i
+CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\TimeClass.cpp > CMakeFiles\compositionAndAggregation.dir\TimeClass.cpp.i
 
-CMakeFiles/compositionAndAggregation.dir/Time.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compositionAndAggregation.dir/Time.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\Time.cpp -o CMakeFiles\compositionAndAggregation.dir\Time.cpp.s
+CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\TimeClass.cpp -o CMakeFiles\compositionAndAggregation.dir\TimeClass.cpp.s
 
 CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj: CMakeFiles/compositionAndAggregation.dir/flags.make
 CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj: CMakeFiles/compositionAndAggregation.dir/includes_CXX.rsp
@@ -190,7 +190,7 @@ compositionAndAggregation_OBJECTS = \
 "CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj" \
 "CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj" \
 "CMakeFiles/compositionAndAggregation.dir/main.cpp.obj" \
-"CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj" \
+"CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.obj" \
 "CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj" \
 "CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj"
 
@@ -203,7 +203,7 @@ compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/DateTime
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/main.cpp.obj
-compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj
+compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.obj
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj
 compositionAndAggregation.exe: CMakeFiles/compositionAndAggregation.dir/build.make

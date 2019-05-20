@@ -1,5 +1,6 @@
 #include <iostream>
 #include <limits>
+#include <time.h>
 #include "Kruskal.h"
 bool menu(Kruskal &k, std::string folderPath){
     int izbira;
@@ -52,6 +53,7 @@ bool menu(Kruskal &k, std::string folderPath){
     return true;
 }
 int main() {
+    srand(time(nullptr));
     std::string folderPath = "C:\\Users\\Elisey\\OneDrive\\Documents\\GitHub\\school\\kruskalGraph\\";
     std::string filename = "graf.txt";
     Kruskal k;

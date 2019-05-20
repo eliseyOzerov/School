@@ -17,5 +17,5 @@ add_executable(compositionAndAggregation
         MeetingEvent.cpp
         MeetingEvent.h
         main.cpp
-        Time.cpp
-        Time.h LectureEvent.cpp LectureEvent.h BirthdayEvent.cpp BirthdayEvent.h)
+        TimeClass.cpp
+        TimeClass.h LectureEvent.cpp LectureEvent.h BirthdayEvent.cpp BirthdayEvent.h)

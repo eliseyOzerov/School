@@ -50,10 +50,62 @@ bool Calendar::deleteEvent(const std::string &name) {
     }
 }
 
-std::vector<Event*> Calendar::toVector(Calendar *cal) {
-    std::vector<Event*> pE;
-    for(std::pair<std::string, Event*> p : cal->getEvents()){
-        pE.push_back(p.second);
+std::vector<Event*> Calendar::toVector() {
+    for(std::pair<std::string, Event*> p : this->getEvents()){
+        this->eventsVec.push_back(p.second);
     }
-    return pE;
+    return this->eventsVec;
+}
+
+bool Calendar::operator<(const Calendar &cal) {
+    return this->numOfEvents() < cal.numOfEvents();
+}
+
+bool Calendar::operator>(const Calendar &cal) {
+    return this->numOfEvents() > cal.numOfEvents();
+}
+
+bool Calendar::operator==(const Calendar &cal) {
+    return this->numOfEvents() == cal.numOfEvents();
+}
+
+Calendar& Calendar::operator++() {
+    for(const auto &e : this->events){
+        e.second->getStarttime().addWeeks(1);
+        e.second->getEndtime().addWeeks(1);
+    }
+    return *this;
+}
+
+std::ostream& operator<<(std::ostream &out, const Calendar &cal) {
+    out << cal.toString();
+    return out;
+}
+
+
+Event *Calendar::operator[](int index) {
+    return this->toVector()[index];
+}
+
+void Calendar::sort(bool (*c)(Event*, Event*)) {
+    std::sort(eventsVec.begin(), eventsVec.end(), *c);
+}
+
+bool ascendingDates(Event* i, Event* j) {
+    return j->getStarttime().getDate() > i->getStarttime().getDate();
+}
+
+bool descendingDates(Event* i, Event* j) {
+    return i->getStarttime().getDate() < j->getStarttime().getDate();
+}
+
+bool ascendingNames(Event* i, Event* j) {
+    return j->getName() > i->getName();
+}
+
+Event* Calendar::find(bool (*c)(Event *)) {
+    if(this->eventsVec.empty()){
+        this->toVector();
+    }
+    return *std::find_if(this->eventsVec.begin(), this->eventsVec.end(), *c);
 }

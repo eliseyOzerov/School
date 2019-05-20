@@ -9,18 +9,23 @@
 #define DATETIME_H_
 
 #include "Date.h"
-#include "Time.h"
+#include "TimeClass.h"
 #include <string>
 
 class DateTime{
 private:
 	Date date;
-	Time time;
+	TimeClass time;
 public:
-	DateTime(Date date, Time time);
+    Date getDate(){return this->date;}
+	DateTime(Date date, TimeClass time);
 	DateTime(const Date &date);
+	void addWeeks(int weeks);
 	bool isEqual(const DateTime& dateTime) const;
 	std::string toString() const;
+	bool operator<(const DateTime& second);
+    bool operator>(const DateTime& second);
+    bool operator==(const DateTime& second);
 };
 
 #endif

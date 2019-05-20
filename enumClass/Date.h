@@ -14,6 +14,7 @@ private:
 	int day;
 	int month;
 	int year;
+	int months[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 public:
 	Date(int day, int month, int year);
 	std::string toString()const ;
@@ -21,6 +22,12 @@ public:
 	int getMonth()const {return this->month;}
 	int getYear()const {return this->year;}
 	bool isEqual(const Date& second)const ;
+    bool isAfter(const Date &second);
+	Date& operator++();
+	const Date operator++(int);
+	bool operator<(const Date& d);
+	bool operator>(const Date& d);
+	bool operator==(const Date& d);
 };
 
 #endif

@@ -1,5 +1,5 @@
 /*
- * Time.h
+ * TimeClass.h
  *
  *  Created on: Mar 24, 2019
  *      Author: ultron
@@ -10,17 +10,20 @@
 
 #include <string>
 
-class Time {
+class TimeClass {
 private:
 	int hour;
 	int minute;
 	int second;
 public:
-	Time(int hour, int minute, int second);
+	TimeClass(int hour, int minute, int second);
 	std::string toString()const;
 	int getHour()const {return this->hour;}
 	int getMinute()const {return this->minute;}
 	int getSecond()const {return this->second;}
-	bool isEqual(const Time& second)const;
+	bool isEqual(const TimeClass& second)const;
+	bool operator<(const TimeClass &second) const;
+    bool operator>(const TimeClass &second) const;
+    bool operator==(const TimeClass &second) const;
 };
 #endif

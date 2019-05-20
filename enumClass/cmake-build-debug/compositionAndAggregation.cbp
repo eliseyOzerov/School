@@ -126,10 +126,10 @@
 		<Unit filename="C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/MeetingEvent.h">
 			<Option target="compositionAndAggregation"/>
 		</Unit>
-		<Unit filename="C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.cpp">
+		<Unit filename="C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.cpp">
 			<Option target="compositionAndAggregation"/>
 		</Unit>
-		<Unit filename="C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.h">
+		<Unit filename="C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.h">
 			<Option target="compositionAndAggregation"/>
 		</Unit>
 		<Unit filename="C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/main.cpp">
