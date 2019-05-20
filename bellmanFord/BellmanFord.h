@@ -7,20 +7,26 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include <limits>
 
 class BellmanFord {
 private:
     struct Node{
-        int cena_poti;
-        int predhodnik;
+        unsigned int index;
+        unsigned int cena_poti;
+        Node* predhodnik;
+        Node(int index) : index(index){}
     };
-    std::vector<std::vector<int>> C;
+    std::vector<std::vector<int>> C; //matrika sosednosti
     std::vector<Node*> nodes;
 public:
-    void readGraphFromFile(std::string pathToFile, int v);
+    bool done = false;
+    int zacV;
+    ~BellmanFord();
+    void readGraphFromFile(const std::string &pathToFile);
     void generateRandomGraph(int N);
-    bool run(Node* start);
-    void printShortestPath();
+    bool run(int index);
+    void printShortestPath(int fromNode, int toNode);
 };
 
 
