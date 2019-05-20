@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/bellmanFord/BellmanFord.cpp
+iostream
+-
+BellmanFord.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/bellmanFord/BellmanFord.h
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/bellmanFord/BellmanFord.h
+vector
+-
+string
+-
+fstream
+-
+
