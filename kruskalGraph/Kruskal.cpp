@@ -11,6 +11,8 @@ void Kruskal::readGraphFromFile(const std::string &pathToFile) {
     int v1, v2;
     int cena;
     std::ifstream ifs(pathToFile);
+    this->povezave.clear();
+    this->vozlisca.clear();
     if(ifs){
         ifs >> a >> a;
         while(ifs.peek()!=EOF){
@@ -43,6 +45,7 @@ void Kruskal::generateRandomGraph(const int &numOfNodes) {
             if(i!=j) this->povezave.push_back(new Povezava(i, j, rand() % 100 + 1));
         }
     }
+    std::cout << "Graf generiran. Sortiram...\n";
     this->sortConnections(this->povezave, 0, this->povezave.size()-1);
     for(auto c : this->povezave){
         std::cout << c->v1 << " -> " << c->v2 << " : " << c->cena <<'\n';
@@ -50,6 +53,10 @@ void Kruskal::generateRandomGraph(const int &numOfNodes) {
 }
 
 void Kruskal::mostEfficientSubGraph() {
+    if(this->povezave.empty()){
+        std::cout << "Graf je prazen.\n";
+        return;
+    }
     std::vector<Povezava*> res;
     for(Povezava* p : this->povezave){
         auto v1it = this->vozlisca.find(p->v1);
@@ -110,6 +117,7 @@ int Kruskal::divide(std::vector<Povezava*> &v, int dno, int vrh){
 
 void Kruskal::sortConnections(std::vector<Povezava*> &v, int dno, int vrh){
     if(dno < vrh){
+        std::cout << "Delitev...\n" << ++this->delitve;
         int j = divide(v, dno, vrh);
         sortConnections(v, dno, j-1);
         sortConnections(v, j+1, vrh);

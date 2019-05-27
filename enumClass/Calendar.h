@@ -18,33 +18,38 @@
 #include <algorithm>
 #include <time.h>
 #include <chrono>
+#include <typeinfo>
+#include <iostream>
 
 class Calendar{
 private:
 	std::string name;
-	std::map<std::string, Event*> events;
-	std::vector<Event*> eventsVec;
+	std::vector<Event*> events;
 public:
-    std::map<std::string, Event*> getEvents() const {return this->events;}
+    class PrintIfMeetingEvent{
+    public:
+        void operator()(Event* e){
+            if(dynamic_cast<MeetingEvent*>(e)){
+                std::cout << e->toString();
+            }
+        }
+    };
+    std::vector<Event*> getEvents() const {return this->events;}
+    Calendar();
 	Calendar(std::string name);
 	std::string toString() const;
-	bool addEvent(Event* event);
+	void addEvent(Event* event);
     int numOfEvents() const {return this->events.size();}
 
-	Event* findEvent(const std::string &name) const;
+	int findEvent(const std::string &name) const;
 	bool deleteEvent(const std::string &name);
-    std::vector<Event*> toVector();
 	bool isEmpty(){return events.empty();}
-	int purgeCal(){this->events.clear();}
-	int count(const std::string &s){return events.count(s);}
+	void purgeCal();
 
 	//naloga 10.1
     void sort(bool (*c)(Event*, Event*));
-	friend bool ascendingDates(Event* i, Event* j);
-    friend bool descendingDates(Event* i, Event* j);
-    friend bool ascendingNames(Event* i, Event* j);
     Event* find(bool (*c)(Event*));
-
+    void printEvents(PrintIfMeetingEvent i);
     //std::cout<<calendar->find(isAfterCurrentTime)->toString();
 
     //naloga 9.1
@@ -53,7 +58,7 @@ public:
 	bool operator==(const Calendar& cal);
     Calendar& operator++();
     friend std::ostream& operator << (std::ostream &out, const Calendar &cal);
-    Event*operator[](int index);
+    Event* operator[](int index);
 
 };
 

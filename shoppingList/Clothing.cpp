@@ -6,10 +6,13 @@
  */
 
 #include "Clothing.h"
+#include "WrongClothingSize.h"
+#include "InvalidPrice.h"
 #include <string>
 #include <iostream>
 #include <iomanip>
 #include <sstream>
+#include <vector>
 
 double Clothing::discount = 0.2;
 int Clothing::count = 0;
@@ -27,7 +30,10 @@ Clothing::Clothing(int gender, int size, double price, int quantity, std::string
 		size(size),
 		price(price),
 		quantity(quantity),
-		name(name){}
+		name(name){
+    if(!this->isSizeValid())throw WrongClothingSize(std::to_string(this->size));
+    if(this->price < 0) throw InvalidPrice(std::to_string(this->price));
+}
 
 Clothing::~Clothing(){}
 
@@ -40,7 +46,8 @@ void Clothing::setGender(int gender){
 }
 
 void Clothing::setSize(int size){
-	this->size = size;
+    if(!this->isSizeValid())throw WrongClothingSize(std::to_string(this->size));
+    this->size = size;
 }
 
 void Clothing::setName(std::string name){
@@ -48,6 +55,7 @@ void Clothing::setName(std::string name){
 }
 
 void Clothing::setPrice(double price){
+    if(this->price < 0) throw InvalidPrice(std::to_string(this->price));
 	this->price = price;
 }
 
@@ -85,6 +93,21 @@ std::string Clothing::toString(){
 	ss<< std::fixed << std::setprecision(2) << price ;
 	ss<< "\u20AC" << ' ' << std::to_string(this->quantity);
 	return ss.str();
+}
+
+bool Clothing::isSizeValid() {
+    int size = this->size;
+    if(!gender){
+        return size<=56 && size>=46 && size % 2 == 0;
+    } else {
+        return size<=54 && size>=32 && size % 2 == 0;
+    }
+}
+
+
+
+void Clothing::addFromFile(std::string fileName) {
+
 }
 
 

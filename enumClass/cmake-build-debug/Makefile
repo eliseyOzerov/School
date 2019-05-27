@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named compositionAndAggregation
+# Target rules for targets named enumClass
 
 # Build rule for target.
-compositionAndAggregation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 compositionAndAggregation
-.PHONY : compositionAndAggregation
+enumClass: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 enumClass
+.PHONY : enumClass
 
 # fast build rule for target.
-compositionAndAggregation/fast:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/build
-.PHONY : compositionAndAggregation/fast
+enumClass/fast:
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/build
+.PHONY : enumClass/fast
 
 BirthdayEvent.obj: BirthdayEvent.cpp.obj
 
@@ -128,7 +128,7 @@ BirthdayEvent.obj: BirthdayEvent.cpp.obj
 
 # target to build an object file
 BirthdayEvent.cpp.obj:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/BirthdayEvent.cpp.obj
 .PHONY : BirthdayEvent.cpp.obj
 
 BirthdayEvent.i: BirthdayEvent.cpp.i
@@ -137,7 +137,7 @@ BirthdayEvent.i: BirthdayEvent.cpp.i
 
 # target to preprocess a source file
 BirthdayEvent.cpp.i:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.i
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/BirthdayEvent.cpp.i
 .PHONY : BirthdayEvent.cpp.i
 
 BirthdayEvent.s: BirthdayEvent.cpp.s
@@ -146,7 +146,7 @@ BirthdayEvent.s: BirthdayEvent.cpp.s
 
 # target to generate assembly for a file
 BirthdayEvent.cpp.s:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.s
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/BirthdayEvent.cpp.s
 .PHONY : BirthdayEvent.cpp.s
 
 Calendar.obj: Calendar.cpp.obj
@@ -155,7 +155,7 @@ Calendar.obj: Calendar.cpp.obj
 
 # target to build an object file
 Calendar.cpp.obj:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/Calendar.cpp.obj
 .PHONY : Calendar.cpp.obj
 
 Calendar.i: Calendar.cpp.i
@@ -164,7 +164,7 @@ Calendar.i: Calendar.cpp.i
 
 # target to preprocess a source file
 Calendar.cpp.i:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.i
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/Calendar.cpp.i
 .PHONY : Calendar.cpp.i
 
 Calendar.s: Calendar.cpp.s
@@ -173,7 +173,7 @@ Calendar.s: Calendar.cpp.s
 
 # target to generate assembly for a file
 Calendar.cpp.s:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.s
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/Calendar.cpp.s
 .PHONY : Calendar.cpp.s
 
 Date.obj: Date.cpp.obj
@@ -182,7 +182,7 @@ Date.obj: Date.cpp.obj
 
 # target to build an object file
 Date.cpp.obj:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Date.cpp.obj
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/Date.cpp.obj
 .PHONY : Date.cpp.obj
 
 Date.i: Date.cpp.i
@@ -191,7 +191,7 @@ Date.i: Date.cpp.i
 
 # target to preprocess a source file
 Date.cpp.i:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Date.cpp.i
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/Date.cpp.i
 .PHONY : Date.cpp.i
 
 Date.s: Date.cpp.s
@@ -200,7 +200,7 @@ Date.s: Date.cpp.s
 
 # target to generate assembly for a file
 Date.cpp.s:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Date.cpp.s
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/Date.cpp.s
 .PHONY : Date.cpp.s
 
 DateTime.obj: DateTime.cpp.obj
@@ -209,7 +209,7 @@ DateTime.obj: DateTime.cpp.obj
 
 # target to build an object file
 DateTime.cpp.obj:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/DateTime.cpp.obj
 .PHONY : DateTime.cpp.obj
 
 DateTime.i: DateTime.cpp.i
@@ -218,7 +218,7 @@ DateTime.i: DateTime.cpp.i
 
 # target to preprocess a source file
 DateTime.cpp.i:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.i
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/DateTime.cpp.i
 .PHONY : DateTime.cpp.i
 
 DateTime.s: DateTime.cpp.s
@@ -227,7 +227,7 @@ DateTime.s: DateTime.cpp.s
 
 # target to generate assembly for a file
 DateTime.cpp.s:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.s
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/DateTime.cpp.s
 .PHONY : DateTime.cpp.s
 
 Event.obj: Event.cpp.obj
@@ -236,7 +236,7 @@ Event.obj: Event.cpp.obj
 
 # target to build an object file
 Event.cpp.obj:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/Event.cpp.obj
 .PHONY : Event.cpp.obj
 
 Event.i: Event.cpp.i
@@ -245,7 +245,7 @@ Event.i: Event.cpp.i
 
 # target to preprocess a source file
 Event.cpp.i:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Event.cpp.i
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/Event.cpp.i
 .PHONY : Event.cpp.i
 
 Event.s: Event.cpp.s
@@ -254,7 +254,7 @@ Event.s: Event.cpp.s
 
 # target to generate assembly for a file
 Event.cpp.s:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/Event.cpp.s
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/Event.cpp.s
 .PHONY : Event.cpp.s
 
 LectureEvent.obj: LectureEvent.cpp.obj
@@ -263,7 +263,7 @@ LectureEvent.obj: LectureEvent.cpp.obj
 
 # target to build an object file
 LectureEvent.cpp.obj:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/LectureEvent.cpp.obj
 .PHONY : LectureEvent.cpp.obj
 
 LectureEvent.i: LectureEvent.cpp.i
@@ -272,7 +272,7 @@ LectureEvent.i: LectureEvent.cpp.i
 
 # target to preprocess a source file
 LectureEvent.cpp.i:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.i
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/LectureEvent.cpp.i
 .PHONY : LectureEvent.cpp.i
 
 LectureEvent.s: LectureEvent.cpp.s
@@ -281,7 +281,7 @@ LectureEvent.s: LectureEvent.cpp.s
 
 # target to generate assembly for a file
 LectureEvent.cpp.s:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.s
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/LectureEvent.cpp.s
 .PHONY : LectureEvent.cpp.s
 
 MeetingEvent.obj: MeetingEvent.cpp.obj
@@ -290,7 +290,7 @@ MeetingEvent.obj: MeetingEvent.cpp.obj
 
 # target to build an object file
 MeetingEvent.cpp.obj:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/MeetingEvent.cpp.obj
 .PHONY : MeetingEvent.cpp.obj
 
 MeetingEvent.i: MeetingEvent.cpp.i
@@ -299,7 +299,7 @@ MeetingEvent.i: MeetingEvent.cpp.i
 
 # target to preprocess a source file
 MeetingEvent.cpp.i:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.i
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/MeetingEvent.cpp.i
 .PHONY : MeetingEvent.cpp.i
 
 MeetingEvent.s: MeetingEvent.cpp.s
@@ -308,7 +308,7 @@ MeetingEvent.s: MeetingEvent.cpp.s
 
 # target to generate assembly for a file
 MeetingEvent.cpp.s:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.s
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/MeetingEvent.cpp.s
 .PHONY : MeetingEvent.cpp.s
 
 TimeClass.obj: TimeClass.cpp.obj
@@ -317,7 +317,7 @@ TimeClass.obj: TimeClass.cpp.obj
 
 # target to build an object file
 TimeClass.cpp.obj:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.obj
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/TimeClass.cpp.obj
 .PHONY : TimeClass.cpp.obj
 
 TimeClass.i: TimeClass.cpp.i
@@ -326,7 +326,7 @@ TimeClass.i: TimeClass.cpp.i
 
 # target to preprocess a source file
 TimeClass.cpp.i:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.i
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/TimeClass.cpp.i
 .PHONY : TimeClass.cpp.i
 
 TimeClass.s: TimeClass.cpp.s
@@ -335,7 +335,7 @@ TimeClass.s: TimeClass.cpp.s
 
 # target to generate assembly for a file
 TimeClass.cpp.s:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.s
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/TimeClass.cpp.s
 .PHONY : TimeClass.cpp.s
 
 main.obj: main.cpp.obj
@@ -344,7 +344,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -353,7 +353,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -362,7 +362,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -372,7 +372,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... compositionAndAggregation
+	@echo ... enumClass
 	@echo ... rebuild_cache
 	@echo ... BirthdayEvent.obj
 	@echo ... BirthdayEvent.i

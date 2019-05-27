@@ -6,7 +6,7 @@ CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj: ../BirthdayEvent
 CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj: ../Date.h
 CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj: ../DateTime.h
 CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj: ../Event.h
-CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj: ../Time.h
+CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj: ../TimeClass.h
 
 CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj: ../BirthdayEvent.h
 CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj: ../Calendar.cpp
@@ -16,38 +16,43 @@ CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj: ../DateTime.h
 CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj: ../Event.h
 CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj: ../LectureEvent.h
 CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj: ../MeetingEvent.h
-CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj: ../Time.h
+CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj: ../TimeClass.h
 
 CMakeFiles/compositionAndAggregation.dir/Date.cpp.obj: ../Date.cpp
 CMakeFiles/compositionAndAggregation.dir/Date.cpp.obj: ../Date.h
 
+CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj: ../BirthdayEvent.h
+CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj: ../Calendar.h
 CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj: ../Date.h
 CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj: ../DateTime.cpp
 CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj: ../DateTime.h
-CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj: ../Time.h
+CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj: ../Event.h
+CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj: ../LectureEvent.h
+CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj: ../MeetingEvent.h
+CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj: ../TimeClass.h
 
 CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj: ../Date.h
 CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj: ../DateTime.h
 CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj: ../Event.cpp
 CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj: ../Event.h
-CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj: ../Time.h
+CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj: ../TimeClass.h
 
 CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj: ../Date.h
 CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj: ../DateTime.h
 CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj: ../Event.h
 CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj: ../LectureEvent.cpp
 CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj: ../LectureEvent.h
-CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj: ../Time.h
+CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj: ../TimeClass.h
 
 CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj: ../Date.h
 CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj: ../DateTime.h
 CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj: ../Event.h
 CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj: ../MeetingEvent.cpp
 CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj: ../MeetingEvent.h
-CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj: ../Time.h
+CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj: ../TimeClass.h
 
-CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj: ../Time.cpp
-CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj: ../Time.h
+CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.obj: ../TimeClass.cpp
+CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.obj: ../TimeClass.h
 
 CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: ../BirthdayEvent.h
 CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: ../Calendar.h
@@ -56,6 +61,6 @@ CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: ../DateTime.h
 CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: ../Event.h
 CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: ../LectureEvent.h
 CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: ../MeetingEvent.h
-CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: ../Time.h
+CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: ../TimeClass.h
 CMakeFiles/compositionAndAggregation.dir/main.cpp.obj: ../main.cpp
 

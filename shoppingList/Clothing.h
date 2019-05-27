@@ -8,6 +8,9 @@
 #ifndef CLOTHING_H_
 #define CLOTHING_H_
 #include <string>
+#include <vector>
+#include "WrongClothingSize.h"
+#include "InvalidPrice.h"
 
 class Clothing {
   private:
@@ -39,6 +42,9 @@ class Clothing {
     void print();
     std::string toString();
     double getTotalPrice();
+
+    bool isSizeValid();
+    static void addFromFile(std::string fileName);
 };
 
 #endif

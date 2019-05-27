@@ -156,7 +156,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=compositionAndAggregation
+CMAKE_PROJECT_NAME:STATIC=enumClass
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/MinGW/bin/ranlib.exe
@@ -243,6 +243,12 @@ compositionAndAggregation_BINARY_DIR:STATIC=C:/Users/Elisey/OneDrive/Documents/G
 
 //Value Computed by CMake
 compositionAndAggregation_SOURCE_DIR:STATIC=C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass
+
+//Value Computed by CMake
+enumClass_BINARY_DIR:STATIC=C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/cmake-build-debug
+
+//Value Computed by CMake
+enumClass_SOURCE_DIR:STATIC=C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass
 
 
 ########################

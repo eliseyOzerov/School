@@ -21,6 +21,7 @@ private:
     std::unordered_map<int, int> vozlisca; //vozlisce, podgraf : evidenca podgrafov in njihovih vozlisc
     void sortConnections(std::vector<Povezava*> &v, int dno, int vrh); //quickSort
     int divide(std::vector<Povezava*> &v, int dno, int vrh); //quickSort division
+    int delitve = 0;
 public:
     ~Kruskal(){
         for(Povezava* p : this->povezave){

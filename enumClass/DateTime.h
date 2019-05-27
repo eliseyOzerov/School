@@ -17,7 +17,7 @@ private:
 	Date date;
 	TimeClass time;
 public:
-    Date getDate(){return this->date;}
+    Date& getDate(){return this->date;}
 	DateTime(Date date, TimeClass time);
 	DateTime(const Date &date);
 	void addWeeks(int weeks);

@@ -64,39 +64,39 @@ CMAKE_SOURCE_DIR = C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass
 CMAKE_BINARY_DIR = C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/compositionAndAggregation.dir
+# Target rules for target CMakeFiles/enumClass.dir
 
 # All Build rule for target.
-CMakeFiles/compositionAndAggregation.dir/all:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/depend
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target compositionAndAggregation"
-.PHONY : CMakeFiles/compositionAndAggregation.dir/all
+CMakeFiles/enumClass.dir/all:
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/depend
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target enumClass"
+.PHONY : CMakeFiles/enumClass.dir/all
 
 # Include target in all.
-all: CMakeFiles/compositionAndAggregation.dir/all
+all: CMakeFiles/enumClass.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/compositionAndAggregation.dir/rule: cmake_check_build_system
+CMakeFiles/enumClass.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\cmake-build-debug\CMakeFiles 10
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/compositionAndAggregation.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/enumClass.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Elisey\OneDrive\Documents\GitHub\school\enumClass\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/compositionAndAggregation.dir/rule
+.PHONY : CMakeFiles/enumClass.dir/rule
 
 # Convenience name for target.
-compositionAndAggregation: CMakeFiles/compositionAndAggregation.dir/rule
+enumClass: CMakeFiles/enumClass.dir/rule
 
-.PHONY : compositionAndAggregation
-
-# clean rule for target.
-CMakeFiles/compositionAndAggregation.dir/clean:
-	$(MAKE) -f CMakeFiles\compositionAndAggregation.dir\build.make CMakeFiles/compositionAndAggregation.dir/clean
-.PHONY : CMakeFiles/compositionAndAggregation.dir/clean
+.PHONY : enumClass
 
 # clean rule for target.
-clean: CMakeFiles/compositionAndAggregation.dir/clean
+CMakeFiles/enumClass.dir/clean:
+	$(MAKE) -f CMakeFiles\enumClass.dir\build.make CMakeFiles/enumClass.dir/clean
+.PHONY : CMakeFiles/enumClass.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/enumClass.dir/clean
 
 .PHONY : clean
 

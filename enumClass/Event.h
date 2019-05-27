@@ -15,13 +15,11 @@ class Event{
 private:
 	std::string name;
 	std::string location;
-	DateTime startTime;
-	DateTime endTime;
-
 public:
+
+    DateTime startTime;
+    DateTime endTime;
     std::string getName() const {return this->name;}
-    DateTime getStarttime() { return this->startTime; }
-    DateTime getEndtime() {return this->endTime; }
     void setName(const std::string &name) {this->name = name;}
     std::string getLocation() const {return this->location;}
     void setLocation(const std::string &loc){this->location = loc;}

@@ -7,7 +7,7 @@ CMakeFiles/compositionAndAggregation.dir/BirthdayEvent.cpp.obj
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Date.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/DateTime.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Event.h
- C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.h
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.h
 CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/BirthdayEvent.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Calendar.cpp
@@ -17,38 +17,43 @@ CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Event.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/LectureEvent.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/MeetingEvent.h
- C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.h
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.h
 CMakeFiles/compositionAndAggregation.dir/Date.cpp.obj
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Date.cpp
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Date.h
 CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/BirthdayEvent.h
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Calendar.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Date.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/DateTime.cpp
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/DateTime.h
- C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.h
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Event.h
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/LectureEvent.h
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/MeetingEvent.h
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.h
 CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Date.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/DateTime.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Event.cpp
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Event.h
- C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.h
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.h
 CMakeFiles/compositionAndAggregation.dir/LectureEvent.cpp.obj
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Date.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/DateTime.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Event.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/LectureEvent.cpp
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/LectureEvent.h
- C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.h
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.h
 CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Date.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/DateTime.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Event.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/MeetingEvent.cpp
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/MeetingEvent.h
- C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.h
-CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj
- C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.cpp
- C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.h
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.h
+CMakeFiles/compositionAndAggregation.dir/TimeClass.cpp.obj
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.cpp
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.h
 CMakeFiles/compositionAndAggregation.dir/main.cpp.obj
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/BirthdayEvent.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Calendar.h
@@ -57,5 +62,5 @@ CMakeFiles/compositionAndAggregation.dir/main.cpp.obj
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Event.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/LectureEvent.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/MeetingEvent.h
- C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.h
+ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.h
  C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/main.cpp

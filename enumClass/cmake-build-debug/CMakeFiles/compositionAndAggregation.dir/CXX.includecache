@@ -25,16 +25,30 @@ map
 -
 vector
 -
+algorithm
+-
+time.h
+-
+chrono
+-
 
 C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Date.h
+string
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/DateTime.cpp
+DateTime.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/DateTime.h
+Calendar.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Calendar.h
 string
 -
 
 C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/DateTime.h
 Date.h
 C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Date.h
-Time.h
-C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.h
+TimeClass.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.h
 string
 -
 
@@ -54,15 +68,7 @@ C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Event.h
 string
 -
 
-C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Time.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/TimeClass.h
 string
--
-
-C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/main.cpp
-Calendar.h
-C:/Users/Elisey/OneDrive/Documents/GitHub/school/enumClass/Calendar.h
-iostream
--
-limits
 -
 

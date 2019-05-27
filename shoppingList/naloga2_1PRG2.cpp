@@ -12,6 +12,7 @@
 #include <iostream>
 #include <vector>
 #include <iomanip>
+#include <algorithm>
 
 using namespace std;
 
@@ -30,48 +31,41 @@ double getClothingTotal(vector<Clothing*> clothes){
 	return final;
 }
 
+void addClothing(std::vector<Clothing*> &shop, int gender, int size, std::string name, double price) {
+    Clothing* c = new Clothing(gender, size, price, 0, name);
+    if(!c->isSizeValid()) throw WrongClothingSize(std::to_string(c->getSize()));
+    if(c->getPrice() < 0) throw InvalidPrice(std::to_string(c->getPrice()));
+    shop.emplace_back(c);
+}
+
 int main(){
 
-	vector<Clothing*> clothes;
-
-	clothes.push_back(new Clothing());
-	clothes.push_back(new Clothing());
-	clothes[1]->setName("Coat");
-	clothes[1]->setSize(50);
-	clothes[1]->setGender(0);
-	clothes.push_back(new Clothing(*clothes[1]));
-	cout << "First piece of clothing: " ;
-	clothes[0]->print();
-	cout << "Second piece of clothing: " ;
-	clothes[1]->print();
-	string SCgender;
-	switch(clothes[2]->getGender()){
-	case 0:
-		SCgender = "men";
-		break;
-	case 1:
-		SCgender = "women";
-		break;
-	default:
-		cout << "You fucked up bro." << endl;
+	std::vector<Clothing*> clothes;
+	try{
+        addClothing(clothes, 0, 98, "Clothing1", -10);
+	} catch(exception &e){
+	    std::cout << e.what();
 	}
-	cout << "Copy of second: " ;
-	cout << clothes[2]->getName() << ' '
-			<< SCgender << ' '
-			<< to_string(clothes[2]->getSize()) <<' '
-			<< fixed << setprecision(2) << clothes[2]->getPrice() << "\u20AC "
-			<< to_string(clothes[2]->getQuantity())<< endl;
+    try{
+        addClothing(clothes, 1 , 46, "Clothing3", -10);
+    } catch(exception &e){
+        std::cout << e.what();
+    }
+    try{
+        addClothing(clothes, 1, 46, "Clothing2", 200);
+    } catch(exception &e){
+        std::cout << e.what();
+    }
+    try{
+        addClothing(clothes, 0, 46, "Clothing4", 50);
+    } catch(exception &e){
+        std::cout << e.what();
+    }
+    std::for_each(clothes.begin(), clothes.end(), [](Clothing* c){
+       if(!c->getGender()) std::cout << c->toString() << '\n';
+    });
 
-	clothes.push_back(new Clothing(1, 38, 50.0, 1, "Blouse"));
 
-	cout << "Print the whole shopping list: " << endl;
-	clothingToString(clothes);
-	cout << endl;
-	cout << "Total price: " << fixed << setprecision(2) << getClothingTotal(clothes) << "\u20AC" << endl;
-	delete clothes[0];
-	delete clothes[1];
-	delete clothes[2];
-	delete clothes[3];
 }
 
 

@@ -6,6 +6,7 @@
  */
 
 #include "DateTime.h"
+#include "Calendar.h"
 #include <string>
 
 DateTime::DateTime(Date date, TimeClass time): date(date), time(time){}
@@ -13,7 +14,6 @@ DateTime::DateTime(Date date, TimeClass time): date(date), time(time){}
 DateTime::DateTime(const Date &date) : date(date), time(0,0,0){}
 std::string DateTime::toString() const{
 	std::string res;
-
 	res = this->date.toString() + ' ' + this->time.toString();
 	return res;
 
@@ -25,24 +25,24 @@ bool DateTime::isEqual(const DateTime& dt) const{
 
 void DateTime::addWeeks(int weeks) {
     for(int i = 0; i < 7*weeks; i++){
-        this->date++;
+        ++this->date;
     }
 }
 
 bool DateTime::operator<(const DateTime &second) {
     if(this->date < second.date){
         return true;
-    } else {
+    } else if(this->date == second.date) {
         return this->time < second.time;
-    }
+    } else return false;
 }
 
 bool DateTime::operator>(const DateTime &second) {
     if(this->date > second.date){
         return true;
-    } else {
+    } else if(this->date == second.date){
         return this->time > second.time;
-    }
+    } else return false;
 }
 
 bool DateTime::operator==(const DateTime &second) {

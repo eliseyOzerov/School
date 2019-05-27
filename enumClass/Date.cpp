@@ -58,25 +58,27 @@ bool Date::isAfter(const Date &second){
 }
 
 bool Date::operator<(const Date &d) {
-    if(d.getYear() < this->getYear()) {
-        return false;
-    }
-    if(d.getMonth() < this->getMonth()){
-        return false;
-    }
-
-    return d.getDay() > this->getDay();
+    if(this->getYear() < d.getYear()) {
+        return true;
+    } else if(this->getYear() == d.getYear()){
+        if(this->getMonth() < d.getMonth()){
+            return true;
+        } else if(this->getMonth() == d.getMonth()){
+            return this->getDay() < d.getDay();
+        } else return false;
+    } else return false;
 }
 
 bool Date::operator>(const Date &d) {
-    if(d.getYear() > this->getYear()) {
-        return false;
-    }
-    if(d.getMonth() > this->getMonth()){
-        return false;
-    }
-
-    return d.getDay() < this->getDay();
+    if(this->getYear() > d.getYear()) {
+        return true;
+    } else if(this->getYear() == d.getYear()){
+        if(this->getMonth() > d.getMonth()){
+            return true;
+        } else if(this->getMonth() == d.getMonth()){
+            return this->getDay() > d.getDay();
+        } else return false;
+    } else return false;
 }
 
 bool Date::operator==(const Date &d) {
