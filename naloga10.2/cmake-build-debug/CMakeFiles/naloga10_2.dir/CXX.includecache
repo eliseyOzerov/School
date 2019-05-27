@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/PersonalTrainer.cpp
+PersonalTrainer.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/PersonalTrainer.h
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/PersonalTrainer.h
+Teacher.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/Teacher.h
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/SchoolTeacher.h
+Teacher.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/Teacher.h
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/Teacher.h
+iostream
+-
+string
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/main.cpp
+iostream
+-
+Teacher.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/Teacher.h
+PersonalTrainer.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/PersonalTrainer.h
+SchoolTeacher.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/SchoolTeacher.h
+

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shoppingList/Clothing.h
+string
+-
+vector
+-
+WrongClothingSize.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shoppingList/WrongClothingSize.h
+InvalidPrice.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shoppingList/InvalidPrice.h
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shoppingList/InvalidPrice.h
+iostream
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shoppingList/WrongClothingSize.h
+string
+-
+exception
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shoppingList/naloga2_1PRG2.cpp
+Clothing.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shoppingList/Clothing.h
+iostream
+-
+vector
+-
+iomanip
+-
+algorithm
+-
+

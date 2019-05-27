@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shortestCycle/Cycle.cpp
+Cycle.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shortestCycle/Cycle.h
+fstream
+-
+iostream
+-
+stack
+-
+algorithm
+-
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shortestCycle/Cycle.h
+vector
+-
+string
+-
+array
+-
+

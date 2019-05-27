@@ -1,0 +1,3 @@
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/cmake-build-debug/CMakeFiles/naloga10_2.dir
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/naloga10.2/cmake-build-debug/CMakeFiles/edit_cache.dir

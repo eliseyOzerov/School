@@ -1,0 +1,3 @@
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shoppingList/cmake-build-debug/CMakeFiles/shoppingList.dir
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shoppingList/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/shoppingList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
