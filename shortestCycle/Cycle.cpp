@@ -33,9 +33,9 @@ void Cycle::readGraphFromFile(std::string filePath) {
     }
 }
 
-void Cycle::shortestCycle() {
+int Cycle::shortestCycle() {
     int zacVozlisce = 0;
-    std::stack<std::vector<Pot*>> nivoji;
+    std::vector<std::vector<Pot*>> nivoji;
     int steviloVozlisc = this->matrikaSosednosti.size();
     //dodaj zacetne poti
     this->potiNaNivoju.clear();
@@ -45,7 +45,8 @@ void Cycle::shortestCycle() {
             this->potiNaNivoju.emplace_back(new Pot(i, zacVozlisce, cena));
         }
     }
-    nivoji.push(this->potiNaNivoju);
+    nivoji.push_back(this->potiNaNivoju);
+    std::cout << "Dodan nivo " << nivoji.size() << " Velikost: " << nivoji.back().size() << '\n';
     //za vsako vozlisce razen zacetenga ustvarimo seznam poti po katerim lahko pridemo do zacetnega vozlisca
     for(int st_nivoja = 1; st_nivoja < steviloVozlisc-1; st_nivoja++){
         this->potiNaNivoju.clear();
@@ -55,19 +56,19 @@ void Cycle::shortestCycle() {
          * zato gremo skozi vsa vozlisca razen zacetnega
          * in iscemo h kateri poti iz prejsnjega nivoja lahko pridruzimo trenutno vozlisce
          */
-        for(Pot* zacP : nivoji.top()){
+        for(int i = 1; i < steviloVozlisc; i++){
             //napravi seznam
-            for(Pot* pot : nivoji.top()){
-                int cena = this->matrikaSosednosti[pot->izV][zacP->izV];
+            for(Pot* pot : nivoji.back()){
+                int cena = this->matrikaSosednosti[i][pot->izV];
                 if(cena < 1) continue; //ce povezava ne obstaja ali je izV == vozlisce
                 //pogledamo da trenutnega vozlisca se ni na poti - v kolikor je tako, nadaljujemo
-                if(!pot->vozlNP[zacP->izV]){
+                if(!pot->vozlNP[i]){
                     //ker ustvarjamo nov nivo poti, ustvarimo novo pot
-                    Pot* nP = new Pot(pot->izV, zacP->izV, cena + zacP->cena);
+                    Pot* nP = new Pot(i, pot->izV, cena + pot->cena);
                     //kopiramo mnozico vozlisc na sprejeti poti v novo pot
                     std::copy(std::begin(pot->vozlNP), std::end(pot->vozlNP), std::begin(nP->vozlNP));
                     //dodamo trenutno vozlisce na pot
-                    nP->vozlNP[zacP->izV] = true;
+                    nP->vozlNP[pot->izV] = true;
                     /*
                      * zdaj moramo preverit, ali ze obstaja kaksna taka pot,
                      * ki ima enak izV in mnozico vozlisc
@@ -91,11 +92,12 @@ void Cycle::shortestCycle() {
                 }
             }
         }
-        nivoji.push(this->potiNaNivoju);
+        nivoji.push_back(this->potiNaNivoju);
+        std::cout << "Dodan nivo " << nivoji.size() << " Velikost: " << nivoji.back().size() << '\n';
     }
     //dodamo se poti iz zacVozlisce do vseh ostalih, kjer obstaja povezava
     this->potiNaNivoju.clear();
-    for(Pot* p : nivoji.top()){
+    for(Pot* p : nivoji.back()){
         int cena = this->matrikaSosednosti[zacVozlisce][p->izV];
         if(cena > 0){
             Pot* kP = new Pot(zacVozlisce, p->izV, cena+p->cena);
@@ -112,13 +114,15 @@ void Cycle::shortestCycle() {
 
         }
     }
-    nivoji.push(this->potiNaNivoju);
-    std::stack<std::vector<Pot*>> kNivoji = nivoji;
-    Pot* current = nivoji.top()[0];
+    nivoji.push_back(this->potiNaNivoju);
+    std::cout << "Dodan nivo " << nivoji.size() << " Velikost: " << nivoji.back().size() <<  '\n';
+    std::vector<std::vector<Pot*>> kNivoji = nivoji;
+    Pot* current = nivoji.back()[0];
+    int cena = current->cena;
     std::cout << "Pot je: " << current->izV + 1 << " -> ";
-    nivoji.pop();
+    nivoji.erase(nivoji.end());
     while(!nivoji.empty()){
-        for(Pot* p : nivoji.top()){
+        for(Pot* p : nivoji.back()){
             bool arr[12];
             std::copy(std::begin(current->vozlNP), std::end(current->vozlNP), std::begin(arr));
             arr[current->vV] = false;
@@ -130,7 +134,8 @@ void Cycle::shortestCycle() {
 
         }
 
-        nivoji.pop();
+        nivoji.erase(nivoji.end());
     }
     std::cout << zacVozlisce+1 << '\n';
+    return cena;
 }

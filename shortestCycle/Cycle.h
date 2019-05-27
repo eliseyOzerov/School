@@ -21,7 +21,7 @@ private:
     std::vector<std::vector<int>> matrikaSosednosti;
 public:
     void readGraphFromFile(std::string filePath);
-    void shortestCycle();
+    int shortestCycle();
 };
 
 
