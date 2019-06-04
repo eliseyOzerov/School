@@ -1,0 +1,3 @@
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/weightGenerator/cmake-build-debug/CMakeFiles/weightGenerator.dir
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/weightGenerator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/weightGenerator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

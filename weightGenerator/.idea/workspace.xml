@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="weightGenerator" targetName="weightGenerator" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3961a61-6b3d-4e58-b488-673854664d2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/kMeans.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/kMeans.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/kMeans.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lzw/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lzw/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lzw/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DayWeight.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DayWeight.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Person.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Person.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeightTracker.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeightTracker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bellmanFord/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bellmanFord/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmanCompression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/Cycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/Cycle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/Cycle.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/Cycle.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/shortestCycle.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/shortestCycle.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/language.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/PersonWeight.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/PersonWeight.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/naloga2_2PRG2.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/naloga2_2PRG2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/objects.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/sources.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/subdir.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/weightGenerator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naloga2_2PRG2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/naloga2_2PRG2.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/naloga2_2PRG2.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4344">
+              <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Date.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#43#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeightTracker.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1368">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="e#43#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeightTracker.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="170" selection-start-line="15" selection-start-column="170" selection-end-line="15" selection-end-column="170" />
+              <folding>
+                <element signature="e#123#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Person.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="e#109#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DayWeight.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Date.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Person.h" />
+        <option value="$PROJECT_DIR$/Person.cpp" />
+        <option value="$PROJECT_DIR$/DayWeight.cpp" />
+        <option value="$PROJECT_DIR$/DayWeight.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/WeightTracker.h" />
+        <option value="$PROJECT_DIR$/WeightTracker.cpp" />
+        <option value="$PROJECT_DIR$/naloga2_2PRG2.cpp" />
+        <option value="$PROJECT_DIR$/Date.cpp" />
+        <option value="$PROJECT_DIR$/Date.h" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1834" />
+    <option name="y" value="-12" />
+    <option name="width" value="1942" />
+    <option name="height" value="2092" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="weightGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weightGenerator" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="weightGenerator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="weightGenerator" TARGET_NAME="weightGenerator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="weightGenerator" RUN_TARGET_NAME="weightGenerator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3961a61-6b3d-4e58-b488-673854664d2d" name="Default Changelist" comment="" />
+      <created>1559541349608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559541349608</updated>
+      <workItem from="1559541351127" duration="29000" />
+      <workItem from="1559541382672" duration="503000" />
+      <workItem from="1559541911441" duration="91000" />
+      <workItem from="1559542011376" duration="715000" />
+      <workItem from="1559542747766" duration="5181000" />
+      <workItem from="1559550510529" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6536000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26293334" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DayWeight.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Person.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/istream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="647" column="4" selection-start-line="647" selection-start-column="4" selection-end-line="647" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naloga2_2PRG2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4344">
+          <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeightTracker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeightTracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="170" selection-start-line="15" selection-start-column="170" selection-end-line="15" selection-end-column="170" />
+          <folding>
+            <element signature="e#123#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Person.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#109#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DayWeight.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Date.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Date.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

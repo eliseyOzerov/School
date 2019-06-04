@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="lzw" targetName="lzw" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdaa8348-0170-4c9b-84ea-5eb4a917e2e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/kMeans.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/kMeans.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/kMeans.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/Date.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/Date.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/DayWeight.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/DayWeight.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/Person.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/Person.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/WeightTracker.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/WeightTracker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bellmanFord/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bellmanFord/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmanCompression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/Cycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/Cycle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/Cycle.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/Cycle.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/shortestCycle.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/shortestCycle.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/.settings/language.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/PersonWeight.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/PersonWeight.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/naloga2_2PRG2.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/naloga2_2PRG2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/objects.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/sources.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/subdir.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/weightGenerator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/naloga2_2PRG2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../weightGenerator/naloga2_2PRG2.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-816">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out_d.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/in.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fileToEncode.txt" />
+        <option value="C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/hashtable.h" />
+        <option value="$PROJECT_DIR$/in.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1834" />
+    <option name="y" value="-12" />
+    <option name="width" value="1942" />
+    <option name="height" value="2092" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lzw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../weightGenerator" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="lzw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lzw" TARGET_NAME="lzw" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lzw" RUN_TARGET_NAME="lzw">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdaa8348-0170-4c9b-84ea-5eb4a917e2e9" name="Default Changelist" comment="" />
+      <created>1559036768076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559036768076</updated>
+      <workItem from="1559036769600" duration="2344000" />
+      <workItem from="1559041694339" duration="656000" />
+      <workItem from="1559042442038" duration="772000" />
+      <workItem from="1559052169297" duration="1893000" />
+      <workItem from="1559055197310" duration="446000" />
+      <workItem from="1559055658095" duration="1467000" />
+      <workItem from="1559064067712" duration="5005000" />
+      <workItem from="1559110275293" duration="6764000" />
+      <workItem from="1559120104711" duration="10434000" />
+      <workItem from="1559130984982" duration="2958000" />
+      <workItem from="1559138850440" duration="687000" />
+      <workItem from="1559154532865" duration="40000" />
+      <workItem from="1559204332529" duration="600000" />
+      <workItem from="1559315523940" duration="612000" />
+      <workItem from="1559540994377" duration="354000" />
+      <workItem from="1559550529093" duration="4982000" />
+      <workItem from="1559557516396" duration="865000" />
+      <workItem from="1559564330015" duration="2265000" />
+      <workItem from="1559627429216" duration="8240000" />
+      <workItem from="1559641661215" duration="7633000" />
+      <workItem from="1559657211623" duration="1214000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60231000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24052005" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27093333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>38</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="this-&gt;std::__detail::_Hash_code_base&lt;unsigned int, std::pair&lt;unsigned int const, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt;, std::__detail::_Select1st, std::hash&lt;unsigned int&gt;, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, false&gt;" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>this-&gt;_M_buckets-&gt;*_M_buckets</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="738" column="8" selection-start-line="738" selection-start-column="8" selection-end-line="738" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa17768.31056/lzw_v1.cpp" />
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="5643" selection-start-line="5643" selection-end-line="5643" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa3672.22753/lzw_v1.cpp" />
+    <entry file="file://$PROJECT_DIR$/out.bin">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/hashtable_policy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="445" selection-start-line="445" selection-end-line="445" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/unordered_map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/hashtable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="1416" selection-start-line="1416" selection-end-line="1416" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_d.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

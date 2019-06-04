@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/lzw/main.cpp
+iostream
+-
+vector
+-
+unordered_map
+-
+sstream
+-
+algorithm
+-
+cmath
+-
+bitset
+-
+fstream
+-
+queue
+-
+
