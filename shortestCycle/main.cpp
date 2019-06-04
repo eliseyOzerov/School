@@ -47,6 +47,12 @@ int main() {
     std::string folderPath = "C:\\Users\\Elisey\\OneDrive\\Documents\\GitHub\\school\\shortestCycle\\";
     std::string filename = "graf2.txt";
     Cycle c;
-    while(menu(c, folderPath)){}
+    c.readGraphFromFile(folderPath+filename);
+    auto start = std::chrono::system_clock::now();
+    int cena = c.shortestCycle();
+    auto end = std::chrono::system_clock::now();
+    std::chrono::duration<double, std::milli> dur = end - start;
+    std::cout << "Cas trajanja: " << dur.count() << " milisekund.\n";
+    std::cout << "Cena je: " << cena << '\n';
     return 0;
 }

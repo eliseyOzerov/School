@@ -66,9 +66,9 @@ int Cycle::shortestCycle() {
                     //ker ustvarjamo nov nivo poti, ustvarimo novo pot
                     Pot* nP = new Pot(i, pot->izV, cena + pot->cena);
                     //kopiramo mnozico vozlisc na sprejeti poti v novo pot
-                    std::copy(std::begin(pot->vozlNP), std::end(pot->vozlNP), std::begin(nP->vozlNP));
+                    nP->vozlNP |= pot->vozlNP;
                     //dodamo trenutno vozlisce na pot
-                    nP->vozlNP[pot->izV] = true;
+                    nP->vozlNP.set(pot->izV);
                     /*
                      * zdaj moramo preverit, ali ze obstaja kaksna taka pot,
                      * ki ima enak izV in mnozico vozlisc
@@ -76,7 +76,7 @@ int Cycle::shortestCycle() {
                      */
                     bool obstaja = false;
                     for(Pot* p : this->potiNaNivoju){
-                        if(p->izV == nP->izV && std::equal(std::begin(p->vozlNP), std::end(p->vozlNP), std::begin(nP->vozlNP))){
+                        if(p->izV == nP->izV && p->vozlNP==nP->vozlNP){
                             obstaja = true;
                             if(p->cena > nP->cena){
                                 *p = *nP;
@@ -101,8 +101,8 @@ int Cycle::shortestCycle() {
         int cena = this->matrikaSosednosti[zacVozlisce][p->izV];
         if(cena > 0){
             Pot* kP = new Pot(zacVozlisce, p->izV, cena+p->cena);
-            std::copy(std::begin(p->vozlNP), std::end(p->vozlNP), std::begin(kP->vozlNP));
-            kP->vozlNP[p->izV] = true;
+            kP->vozlNP |= p->vozlNP;
+            kP->vozlNP.set(p->izV);
             if(!this->potiNaNivoju.empty()){
                 if(this->potiNaNivoju[0]->cena > kP->cena){
                     *(this->potiNaNivoju[0]) = *kP;
@@ -123,10 +123,10 @@ int Cycle::shortestCycle() {
     nivoji.erase(nivoji.end());
     while(!nivoji.empty()){
         for(Pot* p : nivoji.back()){
-            bool arr[12];
-            std::copy(std::begin(current->vozlNP), std::end(current->vozlNP), std::begin(arr));
-            arr[current->vV] = false;
-            if(p->izV == current->vV && std::equal(std::begin(p->vozlNP), std::end(p->vozlNP), std::begin(arr))){
+            std::bitset<12> bs;
+            bs |= current->vozlNP;
+            bs.reset(current->vV);
+            if(p->izV == current->vV && bs==p->vozlNP){
                 *current = *p;
                 std::cout << current->izV + 1 << " -> ";
                 break;

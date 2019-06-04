@@ -12,7 +12,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4122eb96-e573-4301-9e9e-9ffb48af7ebe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/kMeans.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/kMeans.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/kMeans.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kMeans/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lzw/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lzw/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lzw/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/Date.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/Date.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/DayWeight.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/DayWeight.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/Person.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weightGenerator/Person.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bellmanFord/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bellmanFord/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmanCompression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kruskalGraph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/Cycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/Cycle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/Cycle.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/Cycle.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/shortestCycle.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/shortestCycle.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/.settings/language.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/PersonWeight.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/PersonWeight.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/naloga2_2PRG2.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/naloga2_2PRG2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/objects.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/sources.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/subdir.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/weightGenerator" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,10 +70,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="672">
               <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
               <folding>
                 <element signature="e#84#105#0" expanded="true" />
@@ -51,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Date.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+            <state relative-caret-position="323">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -63,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Date.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="384">
+              <caret line="16" column="70" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -157,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +211,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,6 +307,9 @@
       <workItem from="1558941424465" duration="7000" />
       <workItem from="1558964995060" duration="1406000" />
       <workItem from="1558978759774" duration="61000" />
+      <workItem from="1559541888980" duration="21000" />
+      <workItem from="1559542003232" duration="7000" />
+      <workItem from="1559542728667" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1554153057474</created>
@@ -311,13 +357,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58089000" />
+    <option name="totallyTimeSpent" value="58135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -508,7 +554,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
+        <state relative-caret-position="672">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="e#84#105#0" expanded="true" />
@@ -523,20 +569,6 @@
           <folding>
             <element signature="e#78#99#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Date.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Date.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -574,6 +606,20 @@
           <folding>
             <element signature="e#109#130#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Date.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Date.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>

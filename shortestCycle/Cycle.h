@@ -7,6 +7,7 @@
 #include <vector>
 #include <string>
 #include <array>
+#include <bitset>
 
 class Cycle {
 private:
@@ -14,7 +15,7 @@ private:
         int izV;
         int vV;
         int cena;
-        bool vozlNP[12] = {}; //vozlisca na poti
+        std::bitset<12> vozlNP; //vozlisca na poti
         Pot(int izV, int vV, int cena) : izV(izV), vV(vV), cena(cena) {}
     };
     std::vector<Pot*> potiNaNivoju;

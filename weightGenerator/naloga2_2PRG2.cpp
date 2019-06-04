@@ -102,7 +102,7 @@ void calcBMI(vector<PersonWeight*> &weights){
 	}
 }
 
-int main(int argc, char *argv[]) {
+/*int main(int argc, char *argv[]) {
 	bool running = true;
 	bool generated = false;
 	char izbira;
@@ -176,8 +176,8 @@ int main(int argc, char *argv[]) {
 	} while (running);
 
 	return 0;
+}*/
+
+int main(){
+    std::string filename = "";
 }
-
-
-
-

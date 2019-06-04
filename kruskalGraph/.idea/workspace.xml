@@ -12,41 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b4e66a1-1c46-40fa-93dc-fb351bbc8f6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../shortestCycle/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shortestCycle/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shortestCycle/.idea/shortestCycle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shortestCycle/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shortestCycle/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shortestCycle/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lzw/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lzw/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lzw/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bellmanFord/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bellmanFord/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bellmanFord/cmake-build-debug/CMakeFiles/bellmanFord.dir/BellmanFord.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../bellmanFord/cmake-build-debug/CMakeFiles/bellmanFord.dir/BellmanFord.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bellmanFord/cmake-build-debug/CMakeFiles/bellmanFord.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../bellmanFord/cmake-build-debug/CMakeFiles/bellmanFord.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bellmanFord/cmake-build-debug/CMakeFiles/bellmanFord.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../bellmanFord/cmake-build-debug/CMakeFiles/bellmanFord.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bellmanFord/cmake-build-debug/bellmanFord.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../bellmanFord/cmake-build-debug/bellmanFord.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Calendar.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Date.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Date.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/DateTime.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Event.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/MeetingEvent.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/Time.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/CMakeFiles/compositionAndAggregation.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/cmake-build-debug/compositionAndAggregation.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/cmake-build-debug/compositionAndAggregation.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../graphTraversal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../graphTraversal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kruskal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Kruskal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kruskal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Kruskal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kruskalGraph.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kruskalGraph.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kruskalGraph.dir/Kruskal.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kruskalGraph.dir/Kruskal.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kruskalGraph.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kruskalGraph.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kruskalGraph.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kruskalGraph.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kruskalGraph.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kruskalGraph.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/Cycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/Cycle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/Cycle.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/Cycle.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/shortestCycle.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/shortestCycle.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestCycle/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Kruskal.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="88" column="46" lean-forward="true" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+            <state relative-caret-position="454">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="e#43#61#0" expanded="true" />
               </folding>
@@ -230,6 +208,7 @@
       <workItem from="1558445838828" duration="235000" />
       <workItem from="1558451230160" duration="1074000" />
       <workItem from="1558519311298" duration="625000" />
+      <workItem from="1559206844817" duration="222000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1558100173928</created>
@@ -249,13 +228,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27144000" />
+    <option name="totallyTimeSpent" value="27366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3184" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32213333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -356,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Kruskal.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="88" column="46" lean-forward="true" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+        <state relative-caret-position="454">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
           </folding>
