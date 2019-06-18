@@ -12,53 +12,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccd4ed92-8581-4696-997e-fc8b64163320" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kMeans.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kMeans.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kMeans.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lzw/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lzw/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lzw/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weightGenerator/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weightGenerator/Date.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weightGenerator/Date.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weightGenerator/DayWeight.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weightGenerator/DayWeight.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weightGenerator/Person.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weightGenerator/Person.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weightGenerator/WeightTracker.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weightGenerator/WeightTracker.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bellmanFord/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bellmanFord/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lzw/bitstream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lzw/bitstream.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../huffmanCompression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmanCompression/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kruskalGraph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kruskalGraph/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shortestCycle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shortestCycle/Cycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shortestCycle/Cycle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/Cycle.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/Cycle.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/Cycle.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/CMakeFiles/shortestCycle.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/shortestCycle.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/cmake-build-debug/shortestCycle.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shortestCycle/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestCycle/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/.cproject" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/.settings/language.settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/PersonWeight.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/PersonWeight.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/naloga2_2PRG2.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/naloga2_2PRG2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/objects.mk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/sources.mk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/subdir.mk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/Debug/weightGenerator" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weightGenerator/naloga2_2PRG2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../weightGenerator/naloga2_2PRG2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enumClass/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/kMeans.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/kMeans.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kMeans.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kMeans.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kMeans.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/kMeans.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kMeans.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kMeans.zip" beforeDir="false" afterPath="$PROJECT_DIR$/kMeans.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/lzw.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/lzw.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/lzw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/lzw.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/out.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/out.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/out.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lzw/out_d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSort/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -77,7 +70,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
@@ -89,11 +82,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kMeans.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+            <state relative-caret-position="2952">
+              <caret line="123" column="108" selection-start-line="123" selection-start-column="108" selection-end-line="123" selection-end-column="108" />
               <folding>
                 <element signature="e#43#60#0" expanded="true" />
-                <element signature="e#2731#3433#0" />
               </folding>
             </state>
           </provider>
@@ -102,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kMeans.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            <state relative-caret-position="960">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
               <folding>
                 <element signature="e#91#108#0" expanded="true" />
               </folding>
@@ -111,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="816">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -137,9 +129,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/kMeans.h" />
         <option value="$PROJECT_DIR$/kMeans.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -154,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +158,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,11 +211,17 @@
       <workItem from="1559313079159" duration="2442000" />
       <workItem from="1559558734403" duration="156000" />
       <workItem from="1559564322433" duration="6000" />
+      <workItem from="1560154246250" duration="1925000" />
+      <workItem from="1560171990835" duration="1776000" />
+      <workItem from="1560176378607" duration="941000" />
+      <workItem from="1560177384518" duration="4156000" />
+      <workItem from="1560324733169" duration="599000" />
+      <workItem from="1560494538110" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30829000" />
+    <option name="totallyTimeSpent" value="40825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,19 +234,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4911147" visible="true" weight="0.2736" />
-      <window_info id="Structure" order="1" sideWeight="0.5088853" side_tool="true" visible="true" weight="0.2736" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48584905" visible="true" weight="0.2928" />
+      <window_info id="Structure" order="1" sideWeight="0.5141509" side_tool="true" weight="0.2864" />
       <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.25493333" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992" weight="0.36836404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008" side_tool="true" weight="0.36836404" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="CMake" order="11" />
@@ -258,6 +257,28 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48584905" visible="true" weight="0.2864" />
+      <window_info id="Structure" order="1" sideWeight="0.5141509" side_tool="true" visible="true" weight="0.2864" />
+      <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.25493333" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992" weight="0.36836404" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008" side_tool="true" weight="0.36836404" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3109426" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -307,22 +328,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/kMeans.cpp</url>
-          <line>52</line>
+          <line>51</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/kMeans.cpp</url>
-          <line>141</line>
+          <line>203</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/kMeans.cpp</url>
-          <line>70</line>
+          <line>69</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/kMeans.cpp</url>
-          <line>105</line>
+          <line>167</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
@@ -350,6 +371,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa10112.20391/kMeans.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -359,37 +381,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kMeans.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="2952">
+          <caret line="123" column="108" selection-start-line="123" selection-start-column="108" selection-end-line="123" selection-end-column="108" />
           <folding>
             <element signature="e#43#60#0" expanded="true" />
-            <element signature="e#2731#3433#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kMeans.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        <state relative-caret-position="960">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="e#91#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="816">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -5,6 +5,7 @@
 #include <random>
 #include <time.h>
 #include <sstream>
+#include <algorithm>
 #include "kMeans.h"
 
 namespace global{
@@ -20,8 +21,6 @@ double kMeans::getDistance(Tocka* a, Tocka* b){
 
 void kMeans::readData(const std::string &path){
     std::ifstream ifs(path);
-
-
 
     if(!ifs){
         std::cout << "Error opening file.\n";
@@ -43,7 +42,7 @@ void kMeans::readData(const std::string &path){
 
     //ustvari nove centre
     for(int i = 0; i < this->stGruc; i++){
-        Tocka* center = new Tocka(-1, distX(mt), distY(mt), nullptr);
+        Tocka* center = new Tocka(-1, i+(7*(i+1)), i+(7*(i+1)), nullptr);
         Gruca* iG = new Gruca(i, center);
         center->gruca = iG;
         this->gruce.emplace_back(iG);
@@ -69,10 +68,37 @@ void kMeans::assignPointsToClusters() {
         t->gruca = tGruca;
     }
 }
+
+double deli(std::vector<double>& v, int dno, int vrh){
+    double pivot = v[dno];
+    int dn = dno;
+    int vr = vrh;
+    while(vr>dn){
+        while(v[dn] <= pivot && dn < vrh){
+            dn++;
+        }
+        while(v[vr] >= pivot && vr > dno){
+            vr--;
+        }
+        if(vr > dn){
+            std::swap(v[dn], v[vr]);
+        }
+    }
+    std::swap(v[dno], v[vr]);
+    return vr;
+}
+
+void quickSort(std::vector<double>& v, int dno, int vrh){
+    if(dno < vrh){
+        int j = deli(v, dno, vrh);
+        quickSort(v, dno, j-1);
+        quickSort(v, j+1, vrh);
+    }
+}
 /*
- * function for determining centers of clusters
+ * kMeans centers
  */
-void kMeans::newClusterCenters() {
+/*void kMeans::newClusterCenters() {
     for(Gruca* g : this->gruce){
         double x = 0;
         double y = 0;
@@ -83,6 +109,42 @@ void kMeans::newClusterCenters() {
         }
         g->center->x = x/g->tocke.size();
         g->center->y = y/g->tocke.size();
+
+    }
+}*/
+/*
+ * kMedians centers
+ * Ustvarim dva vektorja - z X in Y koordinatami vhodnih tock
+ * Za vsako gruco spraznim vektorja,
+ * za vsako tocko v gruci dobim koordinate in jih potisnem v pravi vektor,
+ * sortiram vektorja,
+ * ce je velikost vektorja liha,
+ * dobimo index mediane tako, da odstejemo ena od velikosti vektorja in delimo z dva,
+ * ce pa je soda, vzamemo povprecje dveh sredinskih vrednosti - prvo dobimo tak, da delimo
+ * velikost vektorja z dva in odstejemo ena, ker se indexi zacnejo z 0, za drugo pa samo delimo velikost z 2
+ */
+void kMeans::newClusterCenters() {
+    std::vector<double> tockeX;
+    std::vector<double> tockeY;
+    for(Gruca* g : this->gruce){
+        int tSize = g->tocke.size();
+        tockeX.clear();
+        tockeY.clear();
+        if(!tSize)continue;
+        for(Tocka* t: g->tocke){
+            tockeX.push_back(t->x);
+            tockeY.push_back(t->y);
+        }
+        quickSort(tockeX, 0, tockeX.size()-1);
+        quickSort(tockeY, 0, tockeY.size()-1);
+        if(tSize & 1){
+            g->center->x = tockeX[(tSize-1)/2];
+            g->center->y = tockeY[(tSize-1)/2];
+        } else {
+            g->center->x = (tockeX[tSize/2-1]+tockeX[tSize/2])/2;
+            g->center->y = (tockeY[tSize/2-1]+tockeY[tSize/2])/2;
+        }
+
     }
 }
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lzw.dir/main.cpp.obj"
+  "CMakeFiles/lzw.dir/bitstream.cpp.obj"
   "lzw.pdb"
   "lzw.exe"
   "lzw.exe.manifest"

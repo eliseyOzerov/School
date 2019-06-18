@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/lzw/bitstream.h
+queue
+-
+
 C:/Users/Elisey/OneDrive/Documents/GitHub/school/lzw/main.cpp
 iostream
 -
@@ -23,6 +27,12 @@ bitset
 -
 fstream
 -
+string
+-
 queue
 -
+cstring
+-
+bitstream.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/lzw/bitstream.h
 

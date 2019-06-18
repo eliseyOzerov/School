@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Elisey/OneDrive/Documents/GitHub/school/lzw/bitstream.cpp">
+			<Option target="lzw"/>
+		</Unit>
+		<Unit filename="C:/Users/Elisey/OneDrive/Documents/GitHub/school/lzw/bitstream.h">
+			<Option target="lzw"/>
+		</Unit>
 		<Unit filename="C:/Users/Elisey/OneDrive/Documents/GitHub/school/lzw/main.cpp">
 			<Option target="lzw"/>
 		</Unit>

@@ -7,7 +7,6 @@
 #include <map>
 #include "kMeans.h"
 
-
 int main(int argc, char* argv[]) {
     if(argc < 4){
         std::cout << "Premalo argumentov.\n";
@@ -25,8 +24,8 @@ int main(int argc, char* argv[]) {
         return 0;
     }
 
-    std::string filepath = "./" + std::string(argv[3]);
-    std::ofstream ofs("./out.txt", std::ios::trunc);
+    std::string filepath = std::string(argv[3]);
+    std::ofstream ofs("out.txt", std::ios::trunc);
 
     kMeans km(stGruc, stIter);
 

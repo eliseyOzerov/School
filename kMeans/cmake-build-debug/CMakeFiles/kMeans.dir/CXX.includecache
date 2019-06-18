@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/kMeans/kMeans.cpp
+random
+-
+time.h
+-
+sstream
+-
+algorithm
+-
+kMeans.h
+C:/Users/Elisey/OneDrive/Documents/GitHub/school/kMeans/kMeans.h
+
 C:/Users/Elisey/OneDrive/Documents/GitHub/school/kMeans/kMeans.h
 vector
 -
@@ -19,22 +31,4 @@ fstream
 -
 iostream
 -
-
-C:/Users/Elisey/OneDrive/Documents/GitHub/school/kMeans/main.cpp
-iostream
--
-cmath
--
-fstream
--
-limits
--
-time.h
--
-random
--
-map
--
-kMeans.h
-C:/Users/Elisey/OneDrive/Documents/GitHub/school/kMeans/kMeans.h
 

@@ -50,6 +50,8 @@ int main(){
         std::cout << e->startTime.getDate().toString() << '\n';
     }
 
+    std::cout << cal;
+
     std::cout<<cal.find(isAfterCurrentTime)->toString();
 
     std::cout << "Descending dates:\n";

@@ -3,4 +3,6 @@ project(lzw)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lzw main.cpp)
+add_executable(lzw main.cpp
+        bitstream.cpp
+        bitstream.h)

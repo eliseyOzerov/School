@@ -122,6 +122,33 @@ lzw/fast:
 	$(MAKE) -f CMakeFiles\lzw.dir\build.make CMakeFiles/lzw.dir/build
 .PHONY : lzw/fast
 
+bitstream.obj: bitstream.cpp.obj
+
+.PHONY : bitstream.obj
+
+# target to build an object file
+bitstream.cpp.obj:
+	$(MAKE) -f CMakeFiles\lzw.dir\build.make CMakeFiles/lzw.dir/bitstream.cpp.obj
+.PHONY : bitstream.cpp.obj
+
+bitstream.i: bitstream.cpp.i
+
+.PHONY : bitstream.i
+
+# target to preprocess a source file
+bitstream.cpp.i:
+	$(MAKE) -f CMakeFiles\lzw.dir\build.make CMakeFiles/lzw.dir/bitstream.cpp.i
+.PHONY : bitstream.cpp.i
+
+bitstream.s: bitstream.cpp.s
+
+.PHONY : bitstream.s
+
+# target to generate assembly for a file
+bitstream.cpp.s:
+	$(MAKE) -f CMakeFiles\lzw.dir\build.make CMakeFiles/lzw.dir/bitstream.cpp.s
+.PHONY : bitstream.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... lzw
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... bitstream.obj
+	@echo ... bitstream.i
+	@echo ... bitstream.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
