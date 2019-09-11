@@ -12,46 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccd4ed92-8581-4696-997e-fc8b64163320" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lzw/bitstream.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lzw/bitstream.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../enumClass/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../enumClass/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/kMeans.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/kMeans.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kMeans.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kMeans.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kMeans.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kMeans.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/kMeans.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kMeans.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kMeans.zip" beforeDir="false" afterPath="$PROJECT_DIR$/kMeans.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/lzw.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/lzw.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/lzw.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/lzw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/lzw.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/cmake-build-debug/out.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/cmake-build-debug/out.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/in.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lzw/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/out.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lzw/out_d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quickSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quickSort/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -146,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +118,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,11 +178,21 @@
       <workItem from="1560177384518" duration="4156000" />
       <workItem from="1560324733169" duration="599000" />
       <workItem from="1560494538110" duration="599000" />
+      <workItem from="1560889505234" duration="75000" />
+      <workItem from="1561105216499" duration="14000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1560889543971</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560889543971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40825000" />
+    <option name="totallyTimeSpent" value="40914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,7 +207,7 @@
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48584905" visible="true" weight="0.2928" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48584905" visible="true" weight="0.2992" />
       <window_info id="Structure" order="1" sideWeight="0.5141509" side_tool="true" weight="0.2864" />
       <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.25493333" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -322,6 +293,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
